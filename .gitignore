@@ -1,0 +1,34 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Environment variables (VERY IMPORTANT)
+.env
+
+# FAISS index and embeddings cache
+faiss.index
+chunks.pkl
+
+# Uploaded PDFs (optional - do NOT push user data)
+data/
+uploads/
+
+# Jupyter Notebook checkpoints (if used later)
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
