@@ -83,6 +83,7 @@ class SimpleRAG:
         all_embeddings = []
         batch_size = 100
 
+        # ---- Create embeddings ----
         for i in range(0, len(texts), batch_size):
             batch = texts[i:i + batch_size]
 
@@ -96,8 +97,13 @@ class SimpleRAG:
 
         embeddings = np.array(all_embeddings, dtype="float32")
 
+        # 🔥 IMPORTANT: normalize for cosine similarity
+        faiss.normalize_L2(embeddings)
+
         dimension = embeddings.shape[1]
-        self.index = faiss.IndexFlatL2(dimension)
+
+        # 🔥 cosine similarity index
+        self.index = faiss.IndexFlatIP(dimension)
         self.index.add(embeddings)
 
         # SAVE CACHE
@@ -123,10 +129,10 @@ class SimpleRAG:
     # =====================
     # SEARCH
     # =====================
-    def search(self, query, k=3):
+    def search(self, query, k=8):   # 🔥 increased k
 
         if self.index is None:
-            return []   # SAFE fallback instead of crash
+            return []
 
         response = client.embeddings.create(
             model="text-embedding-3-small",
@@ -138,11 +144,14 @@ class SimpleRAG:
             dtype="float32"
         )
 
+        # 🔥 normalize query for cosine similarity
+        faiss.normalize_L2(query_vector)
+
         distances, indices = self.index.search(query_vector, k)
 
         results = []
 
-        for i in indices[0]:
+        for rank, i in enumerate(indices[0]):
             if i != -1 and i < len(self.chunks):
                 results.append(self.chunks[i])
 
@@ -166,7 +175,8 @@ def generate_answer(context_chunks, question):
 You are a helpful research assistant.
 
 Answer ONLY using the provided context.
-If not found, say: "Answer not found in document."
+Always include page numbers in your reasoning.
+If answer is not found, say: Answer not found in document.
 
 CONTEXT:
 {context_text}
