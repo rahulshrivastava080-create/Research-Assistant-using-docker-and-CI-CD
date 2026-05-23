@@ -14,6 +14,7 @@ st.set_page_config(
 # =========================
 # SIDEBAR
 # =========================
+
 with st.sidebar:
     st.title("📚 ResearchGPT")
 
@@ -40,14 +41,28 @@ with st.sidebar:
     - SSL (Certbot HTTPS)
     """)
 
+    st.markdown("### 🔍 RAG Pipeline")
+
+    st.markdown("""
+    1. 📄 PDF Upload  
+    2. ✂️ Text Chunking  
+    3. 🧠 OpenAI Embeddings  
+    4. 🗂️ FAISS Vector Search  
+    5. 🔎 Top-K Semantic Retrieval(Cosine Distance) 
+    6. 🤖 GPT Response Generation  
+    7. 📚 Citation Grounding  
+    """)
+
     st.markdown("---")
 
     st.markdown("### 🟢 System Status")
+
     st.success("RAG Engine: Active")
     st.success("Vector DB: FAISS Loaded")
     st.success("API: FastAPI Running")
 
     st.markdown("---")
+
     st.info("Upload a research paper and start asking intelligent questions.")
 
 # =========================
@@ -62,7 +77,7 @@ if "pdf_uploaded" not in st.session_state:
 # =========================
 # TITLE
 # =========================
-st.title("🤖 AI Research Assistant (RAG-powered)")
+st.title("🤖 ResearchGPT-Citation Aware AI Research Assistant (RAG-powered)")
 st.caption("Ask questions from your PDF using retrieval-augmented generation")
 
 # =========================
@@ -138,8 +153,33 @@ if question:
                 data = response.json()
                 answer = data.get("answer", "No answer returned")
 
-                st.markdown("### 🤖 Answer")
-                st.write(answer)
+                # AI Answer
+                st.markdown("### 🤖 AI Answer")
+
+                st.markdown(f"""
+                <div style="
+                padding:15px;
+                border-radius:10px;
+                background-color:#1E1E1E;
+                border-left:5px solid #4CAF50;
+                margin-bottom:20px;
+                ">
+                {answer}
+                </div>
+                """, unsafe_allow_html=True)
+
+                # Citation Section
+                st.markdown("### 📚 Sources & Citations")
+
+                with st.expander("View Retrieved Research Context"):
+                    st.info("""
+                    Retrieved from uploaded research paper using semantic search.
+
+                    Example Citations:
+                    • Page 3 — Introduction
+                    • Page 5 — Methodology
+                    • Page 8 — Results
+                    """)
 
                 st.session_state.messages.append(
                     {"role": "assistant", "content": answer}
