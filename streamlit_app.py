@@ -77,7 +77,7 @@ if "pdf_uploaded" not in st.session_state:
 # =========================
 # TITLE
 # =========================
-st.title("🤖 ResearchGPT-Citation Aware AI Research Assistant (RAG-powered)")
+st.title("🤖 ResearchGPT-Citation Aware AI Research Assistant")
 st.caption("Ask questions from your PDF using retrieval-augmented generation")
 
 # =========================
