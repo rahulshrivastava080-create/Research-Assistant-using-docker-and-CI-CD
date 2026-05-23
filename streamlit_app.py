@@ -48,7 +48,7 @@ with st.sidebar:
     2. ✂️ Text Chunking  
     3. 🧠 OpenAI Embeddings  
     4. 🗂️ FAISS Vector Search  
-    5. 🔎 Top-K Semantic Retrieval (Cosine ) 
+    5. 🔎 Top-K Semantic Retrieval (Cosine Similarity ) 
     6. 🤖 GPT Response Generation  
     7. 📚 Citation Grounding  
     """)
