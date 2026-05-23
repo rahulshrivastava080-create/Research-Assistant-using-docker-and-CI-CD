@@ -48,7 +48,7 @@ with st.sidebar:
     2. ✂️ Text Chunking  
     3. 🧠 OpenAI Embeddings  
     4. 🗂️ FAISS Vector Search  
-    5. 🔎 Top-K Semantic Retrieval (Cosine Similarity) 
+    5. 🔎 Top-K Semantic Retrieval (Cosine ) 
     6. 🤖 GPT Response Generation  
     7. 📚 Citation Grounding  
     """)
@@ -77,7 +77,7 @@ if "pdf_uploaded" not in st.session_state:
 # =========================
 # TITLE
 # =========================
-st.title("🤖 ResearchGPT-Citation Aware AI Research Assistant")
+st.title("🤖 ResearchGPT-Citation Aware AI Research Assistant (RAG-powered)")
 st.caption("Ask questions from your PDF using retrieval-augmented generation")
 
 # =========================
@@ -154,24 +154,28 @@ if question:
                 answer = data.get("answer", "No answer returned")
 
                 # AI Answer
+                import html
+
                 st.markdown("### 🤖 Answer")
 
-                 st.markdown(f"""
-<div style="
-padding:15px;
-border-radius:10px;
-background-color:#FFFFFF;
-color:#1A1A1A;
-border:1px solid #E5E7EB;
-border-left:5px solid #4CAF50;
-margin-bottom:20px;
-line-height:1.6;
-font-size:16px;
-box-shadow:0px 2px 6px rgba(0,0,0,0.05);
-">
-{answer}
-</div>
-""", unsafe_allow_html=True)
+                answer_safe = html.escape(answer)
+
+                st.markdown(f"""
+                <div style="
+                padding:15px;
+                border-radius:10px;
+                background-color:#FFFFFF;
+                color:#1A1A1A;
+                border:1px solid #E5E7EB;
+                border-left:5px solid #4CAF50;
+                margin-bottom:20px;
+                line-height:1.6;
+                font-size:16px;
+                box-shadow:0px 2px 6px rgba(0,0,0,0.05);
+                ">
+                {answer_safe}
+                </div>
+                """, unsafe_allow_html=True)
 
                 # Citation Section
                 st.markdown("### 📚 Sources & Citations")
