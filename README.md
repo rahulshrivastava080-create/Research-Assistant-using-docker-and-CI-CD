@@ -24,25 +24,25 @@ Traditional LLMs may generate hallucinated or non-grounded responses when domain
 
 This project uses Retrieval-Augmented Generation (RAG) to retrieve relevant document chunks before generating answers, improving:
 
-- factual grounding  
-- explainability  
-- context awareness  
-- response reliability  
+- factual grounding
+- explainability
+- context awareness
+- response reliability
 
 ---
 
 ## 🚀 Key Features
 
-- 📄 Upload and process PDF research papers  
-- 🔎 Top-K semantic retrieval using FAISS vector database  
-- 🤖 AI-powered question answering using OpenAI GPT models  
-- 📚 Citation-aware and grounded responses  
-- 💬 Interactive chat-based UI using Streamlit  
-- ⚡ FastAPI backend for scalable API architecture  
-- 💬 Conversational research interaction  
-- 🔄 Real-time document indexing and retrieval  
+- 📄 Upload and process PDF research papers
+- 🔎 Top-K semantic retrieval using FAISS vector database
+- 🤖 AI-powered question answering using OpenAI GPT models
+- 📚 Citation-aware and grounded responses
+- 💬 Interactive chat-based UI using Streamlit
+- ⚡ FastAPI backend for scalable API architecture
+- 💬 Conversational research interaction
+- 🔄 Real-time document indexing and retrieval
 - 🐳 Containerized deployment using Docker  
-- ☁️ AWS EC2 cloud deployment with HTTPS  
+- ☁️ AWS EC2 cloud deployment with HTTPS
 
 ---
 
@@ -66,6 +66,7 @@ Top-K Semantic Retrieval (Cosine Similarity)
 LLM (GPT-4.1-mini)
    ↓
 Final Answer + Citations
+```
 
 ---
 
@@ -80,143 +81,140 @@ Final Answer + Citations
 ### Docker Deployment on AWS EC2
 ![Docker Deployment](screenshots/docker-deployment.png)
 
+---
+
+## ⚙️ Tech Stack
+
+### 🧠 AI / ML
+- OpenAI GPT-4.1-mini
+- OpenAI Embeddings (`text-embedding-3-small`)
+- FAISS Vector Database
+- Cosine Similarity Retrieval
+
+### ⚙️ Backend
+- FastAPI
+- Python 3.11
+
+### 🎨 Frontend
+- Streamlit
+
+### 🐳 DevOps / Deployment
+- Docker & Docker Compose
+- GitHub Actions CI/CD
+- AWS EC2 (Ubuntu)
+- Nginx Reverse Proxy
+- SSL (Certbot HTTPS)
 
 ---
 
-⚙️ Tech Stack
+## 🚀 Deployment Architecture
 
-🧠 AI / ML
-OpenAI GPT-4.1-mini
-OpenAI Embeddings (text-embedding-3-small)
-FAISS Vector Database
-Cosine Similarity Retrieval
-
-⚙️ Backend
-FastAPI
-Python 3.11
-
-🎨 Frontend
-Streamlit
-
-🐳 DevOps / Deployment
-Docker & Docker Compose
-GitHub Actions CI/CD
-AWS EC2 (Ubuntu)
-Nginx Reverse Proxy
-Certbot SSL (HTTPS)
+- Containerized microservice architecture
+- FastAPI backend container
+- Streamlit frontend container
+- Automated CI/CD pipeline using GitHub Actions
+- Docker-based deployment to AWS EC2
+- Nginx reverse proxy configuration
+- HTTPS secured using Certbot SSL
 
 ---
 
+## 📦 Local Setup
 
-🚀 Deployment Architecture
+### 1️⃣ Clone Repository
 
-Containerized microservice architecture
-FastAPI backend container
-Streamlit frontend container
-Automated CI/CD pipeline using GitHub Actions
-Docker-based deployment on AWS EC2
-Nginx reverse proxy configuration
-HTTPS secured via Certbot SSL certificates
-
----
-
-
-📦 Local Setup
-
-1️⃣ Clone Repository
+```bash
 git clone https://github.com/rahulshrivastava080-create/Research-Assistant-using-docker-and-CI-CD.git
 
 cd researchgpt-rag-system
+```
 
-2️⃣ Environment Variables
+---
 
-Create a .env file in the project root:
+### 2️⃣ Create Environment Variables
 
+Create a `.env` file in the project root:
+
+```env
 OPENAI_API_KEY=your_openai_api_key
+```
 
-The .env file is excluded using .gitignore for security.
+> The `.env` file is excluded using `.gitignore` to securely manage API credentials.
 
-3️⃣ Install Dependencies
+---
 
+### 3️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-4️⃣ Run Backend
+---
 
+### 4️⃣ Run Backend
+
+```bash
 uvicorn app:app --reload --host 0.0.0.0 --port 8000
+```
 
-5️⃣ Run Streamlit Frontend
+---
 
+### 5️⃣ Run Streamlit Frontend
+
+```bash
 streamlit run streamlit_app.py
+```
 
 ---
-🐳 Docker Setup
 
-Run the full application using Docker Compose:
+## 🐳 Docker Setup
 
+Run the complete application using Docker Compose:
+
+```bash
 docker-compose up --build
+```
 
 ---
 
+## 🔥 Example Use Cases
 
-🔥 Example Use Cases
-
-Research paper analysis
-
-Academic document Q&A
-
-Technical documentation assistant
-
-AI-powered knowledge retrieval system
-
-Citation-aware semantic search
-
+- Research paper analysis
+- Academic document Q&A
+- Technical documentation assistant
+- AI-powered knowledge retrieval system
+- Citation-aware semantic search
 
 ---
 
+## 📊 Engineering Highlights
 
-📊 Engineering Highlights
-
-End-to-end Retrieval-Augmented Generation (RAG) pipeline
-
-FAISS-based semantic search engine
-
-Citation-grounded LLM responses
-
-Full-stack AI system (Streamlit + FastAPI)
-
-Containerized deployment using Docker
-
-CI/CD pipeline using GitHub Actions
-
-Cloud deployment on AWS EC2 with HTTPS support
+- End-to-end Retrieval-Augmented Generation (RAG) pipeline
+- Citation-grounded responses for explainability
+- Semantic retrieval using FAISS vector similarity search
+- Containerized deployment using Docker
+- Automated CI/CD pipeline with GitHub Actions
+- Cloud deployment on AWS EC2 with HTTPS support
+- Full-stack integration across AI, backend, frontend, and DevOps
 
 ---
 
+## 🧠 Future Improvements
 
-🧠 Future Improvements
-
-Multi-document RAG support
-
-PDF answer highlighting
-
-Streaming responses (ChatGPT-style UX)
-
-Authentication & user management
-
-Hybrid search (keyword + semantic)
-
-Vector database migration (Pinecone/Weaviate)
+- Multi-document RAG support
+- PDF answer highlighting
+- Streaming responses (ChatGPT-style UX)
+- Authentication & user management
+- Hybrid search implementation
+- Cloud vector database integration
 
 ---
+## 👨‍💻 Author
 
-
-👨‍💻 Author
-
-Rahul Shrivastava
+**Rahul Shrivastava**  
 AI/ML Engineer • Backend AI Systems • RAG Applications
+- Portfolio: https://rahulshrivastava.dev
+- GitHub: https://github.com/rahulshrivastava080-create
+- LinkedIn: https://www.linkedin.com/in/rahul-shrivastava-7732a5392/
 
-Portfolio: [rahulshrivastava.dev](https://rahulshrivastava.dev)
-
-GitHub:[GitHub Profile]https://github.com/rahulshrivastava080-create
-
-LinkedIn: [LinkedIn Profile]https://www.linkedin.com/in/rahul-shrivastava-7732a5392/
+---
