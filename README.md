@@ -4,13 +4,13 @@ A production-ready Retrieval-Augmented Generation (RAG) system that enables user
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
 🌐 [ResearchGPT Live Application](https://rag.rahulshrivastava.dev)
 
 ---
 
-## 📌 Overview
+##  Overview
 
 ResearchGPT is a full-stack AI application designed for semantic document question answering using Retrieval-Augmented Generation (RAG).
 
@@ -18,7 +18,7 @@ Users can upload research papers in PDF format and interact with them via natura
 
 ---
 
-## 🧠 Why RAG?
+##  Why RAG?
 
 Traditional LLMs may generate hallucinated or non-grounded responses when domain-specific context is unavailable.
 
@@ -31,46 +31,29 @@ This project uses Retrieval-Augmented Generation (RAG) to retrieve relevant docu
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-- 📄 Upload and process PDF research papers
-- 🔎 Top-K semantic retrieval using FAISS vector database
-- 🤖 AI-powered question answering using OpenAI GPT models
-- 📚 Citation-aware and grounded responses
-- 💬 Interactive chat-based UI using Streamlit
-- ⚡ FastAPI backend for scalable API architecture
-- 💬 Conversational research interaction
-- 🔄 Real-time document indexing and retrieval
-- 🐳 Containerized deployment using Docker  
-- ☁️ AWS EC2 cloud deployment with HTTPS
-
----
-
-## 🏗️ System Architecture
-
-```text
-PDF Upload
-   ↓
-Text Extraction (PyPDF)
-   ↓
-Chunking Strategy
-   ↓
-OpenAI Embeddings
-   ↓
-FAISS Vector Database
-   ↓
-User Query
-   ↓
-Top-K Semantic Retrieval (Cosine Similarity)
-   ↓
-LLM (GPT-4.1-mini)
-   ↓
-Final Answer + Citations
-```
+- Upload and process PDF research papers
+- Top-K semantic retrieval using FAISS vector database
+- AI-powered question answering using OpenAI GPT models
+- Citation-aware and grounded responses
+- Interactive chat-based UI using Streamlit
+- FastAPI backend for scalable API architecture
+- Conversational research interaction
+- Real-time document indexing and retrieval
+- Containerized deployment using Docker  
+- AWS EC2 cloud deployment with HTTPS
 
 ---
 
-## 📸 Application Preview
+## Retrieval-Augmented Generation (RAG) Architecture
+
+<p align="center">
+  <img src="screenshots/system-architecture.png" width="900"/>
+</p>
+
+
+##  Application Preview
 
 ### Main RAG Interface
 ![ResearchGPT UI](screenshots/rag-ui.png)
@@ -83,22 +66,22 @@ Final Answer + Citations
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
-### 🧠 AI / ML
+###   AI / ML
 - OpenAI GPT-4.1-mini
 - OpenAI Embeddings (`text-embedding-3-small`)
 - FAISS Vector Database
 - Cosine Similarity Retrieval
 
-### ⚙️ Backend
+###   Backend
 - FastAPI
 - Python 3.11
 
-### 🎨 Frontend
+###   Frontend
 - Streamlit
 
-### 🐳 DevOps / Deployment
+###   DevOps / Deployment
 - Docker & Docker Compose
 - GitHub Actions CI/CD
 - AWS EC2 (Ubuntu)
@@ -107,7 +90,7 @@ Final Answer + Citations
 
 ---
 
-## 🚀 Deployment Architecture
+##   Deployment Architecture
 
 - Containerized microservice architecture
 - FastAPI backend container
@@ -119,7 +102,7 @@ Final Answer + Citations
 
 ---
 
-## 📦 Local Setup
+##   Local Setup
 
 ### 1️⃣ Clone Repository
 
@@ -177,7 +160,7 @@ docker-compose up --build
 
 ---
 
-## 🔥 Example Use Cases
+## Example Use Cases
 
 - Research paper analysis
 - Academic document Q&A
@@ -187,7 +170,7 @@ docker-compose up --build
 
 ---
 
-## 📊 Engineering Highlights
+##  Engineering Highlights
 
 - End-to-end Retrieval-Augmented Generation (RAG) pipeline
 - Citation-grounded responses for explainability
@@ -199,7 +182,7 @@ docker-compose up --build
 
 ---
 
-## 🧠 Future Improvements
+##  Future Improvements
 
 - Multi-document RAG support
 - PDF answer highlighting
