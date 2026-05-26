@@ -1,4 +1,4 @@
-# 📚 ResearchGPT — Citation-Aware RAG System
+#   ResearchGPT — Citation-Aware RAG System
 
 A production-ready Retrieval-Augmented Generation (RAG) system that enables users to upload research papers (PDFs) and ask intelligent, context-aware questions with citation-grounded responses.
 
@@ -104,7 +104,7 @@ This project uses Retrieval-Augmented Generation (RAG) to retrieve relevant docu
 
 ##   Local Setup
 
-### 1️⃣ Clone Repository
+### 1.  Clone Repository
 
 ```bash
 git clone https://github.com/rahulshrivastava080-create/Research-Assistant-using-docker-and-CI-CD.git
@@ -114,7 +114,7 @@ cd researchgpt-rag-system
 
 ---
 
-### 2️⃣ Create Environment Variables
+### 2.  Create Environment Variables
 
 Create a `.env` file in the project root:
 
@@ -126,7 +126,7 @@ OPENAI_API_KEY=your_openai_api_key
 
 ---
 
-### 3️⃣ Install Dependencies
+### 3.  Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -134,7 +134,7 @@ pip install -r requirements.txt
 
 ---
 
-### 4️⃣ Run Backend
+### 4.  Run Backend
 
 ```bash
 uvicorn app:app --reload --host 0.0.0.0 --port 8000
@@ -142,7 +142,7 @@ uvicorn app:app --reload --host 0.0.0.0 --port 8000
 
 ---
 
-### 5️⃣ Run Streamlit Frontend
+### 5.  Run Streamlit Frontend
 
 ```bash
 streamlit run streamlit_app.py
@@ -150,7 +150,7 @@ streamlit run streamlit_app.py
 
 ---
 
-## 🐳 Docker Setup
+##   Docker Setup
 
 Run the complete application using Docker Compose:
 
@@ -192,7 +192,7 @@ docker-compose up --build
 - Cloud vector database integration
 
 ---
-## 👨‍💻 Author
+##  Author
 
 **Rahul Shrivastava**  
 AI/ML Engineer • Backend AI Systems • RAG Applications
