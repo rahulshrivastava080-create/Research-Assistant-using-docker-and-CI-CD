@@ -62,7 +62,7 @@ This project uses Retrieval-Augmented Generation (RAG) to retrieve relevant docu
 ![Citations](screenshots/citations.png)
 
 ### Docker Deployment on AWS EC2
-![Docker Deployment](screenshots/docker-deployment.png)
+![Docker Deployment](screenshots/docker-deployment2.png)
 
 ---
 
