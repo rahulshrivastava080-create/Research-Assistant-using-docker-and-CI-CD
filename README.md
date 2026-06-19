@@ -70,9 +70,9 @@ This project uses Retrieval-Augmented Generation (RAG) to retrieve relevant docu
 
 ###   AI / ML
 - OpenAI GPT-4.1-mini
-- OpenAI Embeddings (`text-embedding-3-small`)
+- OpenAI Embeddings (text-embedding-3-small)
 - FAISS Vector Database
-- Cosine Similarity Retrieval
+- Similarity Retrieval
 
 ###   Backend
 - FastAPI
