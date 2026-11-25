@@ -1,0 +1,54 @@
+{
+    "Q01": {
+        "relevant_chunks": [
+            "chunk_11",
+            "chunk_13",
+            "chunk_1"
+        ]
+    },
+    "Q02": {
+        "relevant_chunks": [
+            "chunk_20",
+            "chunk_23",
+            "chunk_21"
+        ]
+    },
+    "Q03": {
+        "relevant_chunks": [
+            "chunk_22",
+            "chunk_23"
+        ]
+    },
+    "Q04": {
+        "relevant_chunks": [
+            "chunk_24",
+            "chunk_23"
+        ]
+    },
+    "Q05": {
+        "relevant_chunks": [
+            "chunk_33",
+            "chunk_31",
+            "chunk_36"
+        ]
+    },
+    "Q06": {
+        "relevant_chunks": [
+            "chunk_27",
+            "chunk_28"
+        ]
+    },
+    "Q07": {
+        "relevant_chunks": [
+            "chunk_27",
+            "chunk_28"
+        ]
+    },
+    "Q08": {
+        "relevant_chunks": [
+            "chunk_34",
+            "chunk_31",
+            "chunk_36"
+        ]
+    }
+}

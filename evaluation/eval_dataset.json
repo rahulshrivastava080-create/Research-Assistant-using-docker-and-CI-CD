@@ -1,0 +1,58 @@
+[
+  {
+    "id": "Q01",
+    "question": "What were the three process parameters used in the Box-Behnken design, and what were their low, medium, and high levels?",
+    "category": "parameters",
+    "expected_answer": "The three process parameters were load, rotating disc speed, and sliding distance. Load levels were 30, 40, and 50 N; rotating disc speed levels were 100, 250, and 400 rpm; and sliding distance levels were 100, 250, and 400 m.",
+    "expected_pages": [5, 6]
+  },
+  {
+    "id": "Q02",
+    "question": "Which process parameter had the greatest influence on both coefficient of friction (COF) and specific wear rate (SWR) according to the ANOVA results, and what were its F-values for COF and SWR?",
+    "category": "anova",
+    "expected_answer": "Load had the greatest influence on both COF and SWR. Its F-value was 1152.82 for COF and 4289.29 for SWR.",
+    "expected_pages": [9, 10]
+  },
+  {
+    "id": "Q03",
+    "question": "What were the R², adjusted R², and predicted R² values for the coefficient of friction (COF) model?",
+    "category": "model_statistics",
+    "expected_answer": "For the COF model, R² was 0.9948, adjusted R² was 0.9880, and predicted R² was 0.9339.",
+    "expected_pages": [10]
+  },
+  {
+    "id": "Q04",
+    "question": "What were the R², adjusted R², and predicted R² values for the specific wear rate (SWR) model?",
+    "category": "model_statistics",
+    "expected_answer": "For the SWR model, R² was 0.9990, adjusted R² was 0.9978, and predicted R² was 0.9878.",
+    "expected_pages": [10]
+  },
+  {
+    "id": "Q05",
+    "question": "What were the multi-objective PSO optimum process parameters, and what were the predicted and experimentally obtained COF and SWR values?",
+    "category": "optimization",
+    "expected_answer": "The multi-objective PSO optimum process parameters were a load of 35.8 N, a speed of 220.3 rpm, and a sliding distance of 209.6 m. The predicted COF was 0.427 and the predicted SWR was 255.5 × 10⁻⁵ mm³/Nm. In the confirmation experiment, the COF was 0.413 and the SWR was 250 × 10⁻⁵ mm³/Nm.",
+    "expected_pages": [15, 17]
+  },
+  {
+    "id": "Q06",
+    "question": "Why does increasing the applied load generally increase both the coefficient of friction and specific wear rate of the flax fiber reinforced polymer composite?",
+    "category": "mechanism",
+    "expected_answer": "Increasing the load increases the contact between the composite and the rotating disc. The matrix wears away and exposes the flax fibers, increasing direct fiber–disc contact, interfacial adhesion, and mechanical interlocking, which increases the coefficient of friction. The higher load also increases wear and material loss, resulting in a higher specific wear rate.",
+    "expected_pages": [12]
+  },
+  {
+    "id": "Q07",
+    "question": "How did increasing speed and sliding distance affect the specific wear rate, and what mechanisms were proposed to explain this behavior?",
+    "category": "wear_behavior",
+    "expected_answer": "The specific wear rate initially increased with increasing speed and sliding distance and then decreased. At higher disc speeds, rapid abrasion of the outer matrix exposed the flax fibers. The increased rubbing generated heat at the interface, which caused softening of the flax fiber and contributed to a subsequent reduction in wear rate. Increasing load and sliding distance also increased SWR because of prolonged contact with the rotating disc.",
+    "expected_pages": [12]
+  },
+  {
+    "id": "Q08",
+    "question": "What wear and failure mechanisms were observed from SEM and optical microscopy, particularly under high-load conditions?",
+    "category": "evidence",
+    "expected_answer": "Optical microscopy and SEM showed microcracks, matrix delamination, matrix breakage, fiber pull-out, and fiber fracture. Under high-load conditions, fiber debonding, fiber breakage, and fiber pull-out were observed, while delamination, wear tracks, and fiber pull-out were identified as major causes of composite failure.",
+    "expected_pages": [15, 16, 17]
+  }
+]

@@ -1,0 +1,610 @@
+[
+  {
+    "id": "Q01",
+    "question": "What were the three process parameters used in the Box-Behnken design, and what were their low, medium, and high levels?",
+    "category": "factual",
+    "answer": "The three process parameters used in the Box-Behnken design were:\n\n1. Load (N) with levels: Low = 30, Mean = 40, High = 50  \n2. Rotating disc speed (rpm) with levels: Low = 100, Mean = 250, High = 400  \n3. Sliding distance (m) with levels: Low = 100, Mean = 250, High = 400  \n\n(Page 5 | Chunk chunk_11; Page 6 | Chunk chunk_13)",
+    "sources": [
+      {
+        "chunk_id": "chunk_11",
+        "text": "Surface Method (RSM). The BBD is characterized by a central point and additional points located at the midpoints of the edges, and the design becomes almost rotatable (Jain and Parashar 2023). Figure 3 depicts the Box Behnken design of all three factors and their respective levels. This study focused on three levels for each parameter and two outputs to organize the experiments. A total of 17 experiments were conducted, and in the center condition, the replication of experiments was performed to estimate the lack of fit of the model, and the responses were analyzed with the help of a developed quadratic fitted model (Equation 3). Here, T is the response, M0 is the intercept, X1 , X2 , X3 are variables, and M1–33 are the coefficients of regression. Design Expert version 13 software was used for the Box Behnken design investigation. This study selects load, rotating disc speed, and the sliding distance as process parameters, and COF & SWR are the responses. The process parameters and their levels selected in this study are based on the preliminary trials and previous literature (Kumar, Tejyan, and Kannan 2024; Mohana Krishnudu et al. 2023). The benefit of the Box-Behnken Design (BBD) lies in",
+        "page": 5,
+        "score": 0.6691358685493469,
+        "rank": 1
+      },
+      {
+        "chunk_id": "chunk_10",
+        "text": "a total of 17 tests were conducted, according to the Box-Behnken design. Before the experiment, to confirm approximately 0 N load over the pin, the dead weights were balanced on both sides, and also to minimize the experimental uncertainty, an electronic sensor apparatus was used to measure the coefficient of friction and material loss. Before each test, the sensor was recalibrated to ensure the consistency and reliability of the results. Furthermore, the counter surface was meticulously cleaned, and appropriate cooling was applied before each test. The COF was obtained directly from the system, and SWR was calculated by Equation 2 (P et al. 2024). A steel disc with a 60 mm track diameter is used for the wear test. A composite sample is kept fixed, and the disc is rotating against its center at various speeds. The rubbing of the developed composite also generated heat, which increased the temperature of the samples, so the temperature of each specimen after the experiments was measured through an infrared thermal gun. Initially, all the specimens were placed at room temperature. Box Behnken design The Box Behnken Design (BBD) was employed in this study to structure the experimental runs as part of the Response",
+        "page": 5,
+        "score": 0.48978814482688904,
+        "rank": 2
+      },
+      {
+        "chunk_id": "chunk_8",
+        "text": "employing the Box – Behnken design to evaluate the effect of process parameters on the tribological properties of the composites. This study utilized GRA to establish a correlation between COF and SWR for multi-objective optimization and PSO to determine the global optimum process parameters within the complex BBD space. Moreover, this study confirmed through experiments that the optimized parameters obtained from the PSO were effective in improving their durability, efficiency, and cost-effectiveness. The optimized FRPCs hold potential for future applications in the development of automotive components (such as door panels, bumpers, and brake pads) and construction materials (including tiles and roofing), where both performance and environmental sustainability are essential. Overall, this study contributes to the advancement of green material technologies for practical industrial applications.Materials and methodologyMaterials The flax fiber used in this study was purchased from a local supplier (India). LY556 polyepoxide, popularly known as epoxy resin, was selected as the matrix material. HY 951 was used as a hardener, and a 10:1 weight ratio was chosen for efficient curing of the employed resin-matrix combination purchased from commercial vendors. About 5% NaOH-based alkali solution was used for the surface treatment of the fiber, and 30 wt% fiber loading was utilized",
+        "page": 4,
+        "score": 0.459496408700943,
+        "rank": 3
+      },
+      {
+        "chunk_id": "chunk_13",
+        "text": "preferred over replication at each point because the design is strategically structured to optimize informa- tion about the system while minimizing the number of experimental runs required (Kechagias and Vidakis 2022). So, to ensure the reliability of the experimental results, five replications were conducted at the center point (40 N, 250 rpm, and 250 m), corresponding to experiments 11, 12, 14, 15, and 16 in Table 2. The observed deviation of 0.02 among these replications was minimal and could be attributed to uncontrollable factors, such as environmental variations. The process factors and their levels are given in Table 1, and the data obtained from the experiments are shown in Table 2. Grey relational analysis GRA was utilized to change multi-objective functions into a single-objective function (Arslane et al. 2025; Rajendran, Paul, and Shunmugesh 2021). In this study, COF and SWR were taken as the primary responses. To achieve manufacturing objectives, it is crucial to maximize the COF while minimizing the SWR. In single-objective optimization, the focus is on optimizing a single response. In contrast, multi-objective Table 1. Factors and their levels.Factor Name Units Type Sub-type Coded value Low (−1) Mean (0) High (+1) A Load N Numeric Continuous 30 40",
+        "page": 6,
+        "score": 0.44185054302215576,
+        "rank": 4
+      },
+      {
+        "chunk_id": "chunk_1",
+        "text": "Optimization of Tribological Process Parameters of Flax Fiber Reinforced Polymer Composites Using Box-Behnken Design and GRA-PSORahul Shrivastava and Vishal Parashar Department of Mechanical Engineering, Maulana Azad National Institute of Technology, Bhopal IndiaABSTRACT This study investigates the optimal tribological process parameters for a flax fiber- reinforced polymer composite (FRPC) to maximize the coefficient of friction (COF) while minimizing the specific wear rate (SWR). The tribological characteristics were evaluated using a pin-on-disc setup under three operational conditions: load (30, 40, and 50 N), speed (100, 250, and 400 rpm), and sliding distance (100, 250, and 400 m). The Box-Behnken Design (BBD) was employed, with optimization performed through Grey Relational Analysis (GRA) and Particle Swarm Optimization (PSO). Analysis of Variance (ANOVA) was used to interpret the results. The results demonstrated that the optimal conditions, as determined by PSO, were a load of 35.8 N, speed of 220.3 rpm, and sliding distance of 209.6 m. The ANOVA revealed that load significantly influenced both the COF and SWR, with higher loads leading to increases in both the COF and SWR. A single- objective PSO was conducted for both COF and SWR. GRA evaluated optimal weights for COF and SWR of approximately 51% and 49%, respectively.",
+        "page": 2,
+        "score": 0.4195305109024048,
+        "rank": 5
+      },
+      {
+        "chunk_id": "chunk_0",
+        "text": "Journal of Natural Fibers ISSN: 1544-0478 (Print) 1544-046X (Online) Journal homepage: www.tandfonline.com/journals/wjnf20 Optimization of Tribological Process Parameters of Flax Fiber Reinforced Polymer Composites Using Box-Behnken Design and GRA-PSO Rahul Shrivastava & Vishal Parashar To cite this article: Rahul Shrivastava & Vishal Parashar (2025) Optimization of Tribological Process Parameters of Flax Fiber Reinforced Polymer Composites Using Box-Behnken Design and GRA-PSO, Journal of Natural Fibers, 22:1, 2570088, DOI: 10.1080/15440478.2025.2570088 To link to this article: https://doi.org/10.1080/15440478.2025.2570088 © 2025 The Author(s). Published with license by Taylor & Francis Group, LLC. View supplementary material Published online: 15 Oct 2025. Submit your article to this journal Article views: 185 View related articles View Crossmark data Full Terms & Conditions of access and use can be found at https://www.tandfonline.com/action/journalInformation?journalCode=wjnf20",
+        "page": 1,
+        "score": 0.3836005926132202,
+        "rank": 6
+      },
+      {
+        "chunk_id": "chunk_19",
+        "text": "The movement of velocity and position of the ith particle are presented in square brackets. The pbest and gbest value of the current space solution is achieved by using input variables. Thus, gbest provides instruction and investigates the position of particles and approaches to reach the best results. This is the advantage of PSO, achieving an absolute value and adjusting with some variables. To halt the search, the number of iterations should be maximum, or the criterion of minimum error should be achieved. The size of the particle, learning factor, dimension, range, stop condition, and local vs global are some of the factors in PSO. Thus, all the factors were explored, which follow PSO algorithms. Scanning electron microscopy (SEM) SEM uses an electron beam to generate high-resolution images of fractured samples. JEOL-JSM 6390A was used for the SEM image, which revealed fiber pullout, debonding, and fractured surfaces of the developed composite. Images were obtained at ETH = 2 KV, and magnification = 50x,100x, and 200x.Results and discussionAnalysis of variance (ANOVA) for COF and SWR Design expert software was used for the experimental data analysis. A quadratic model is obtained for both responses. ANOVA shows the influence of different input parameters",
+        "page": 9,
+        "score": 0.36568889021873474,
+        "rank": 7
+      },
+      {
+        "chunk_id": "chunk_29",
+        "text": "Particle swarm optimization The objective functions for the COF and SWR, derived from the Box-Behnken design, are presented in Table 9. These functions were used to maximize and minimize the respective parameters. MATLAB software was used to optimize both single and multi-objective functions. The tuning parameters included a population size of 50 and 1000 iterations for the PSO algorithm. Figure 9(a-c) shows the convergence curve obtained from PSO optimization. The convergence plot shows the required number of iterations to achieve the optimum solution of single and multi- objective fitness functions of COF and SWR. Both the responses, COF and SWR, were optimized Figure 7. 3D and 2D plots of (a) load vs speed, (b) speed vs distance (c) load vs distance on the COF of developed flax epoxy composites.12 R. SHRIVASTAVA AND V. PARASHAR",
+        "page": 13,
+        "score": 0.3654989004135132,
+        "rank": 8
+      }
+    ],
+    "metrics": {
+      "embedding_latency_seconds": 2.0085,
+      "retrieval_latency_seconds": 0.0422,
+      "generation_latency_seconds": 2.4229,
+      "total_latency_seconds": 4.5498,
+      "input_tokens": 2283,
+      "output_tokens": 108,
+      "total_tokens": 2391,
+      "estimated_cost_usd": 0.001086
+    },
+    "evaluation_version": "V1",
+    "timestamp": "2026-09-26T12:50:50.041906"
+  },
+  {
+    "id": "Q02",
+    "question": "Which process parameter had the greatest influence on both coefficient of friction (COF) and specific wear rate (SWR) according to the ANOVA results, and what were its F-values for COF and SWR?",
+    "category": "numerical",
+    "answer": "The process parameter that had the greatest influence on both the coefficient of friction (COF) and specific wear rate (SWR) according to the ANOVA results was the load. Its F-value for COF was 1152.82, and for SWR, it was 4289.29 (Page 9 | Chunk chunk_20 and Page 10 | Chunk chunk_23).",
+    "sources": [
+      {
+        "chunk_id": "chunk_20",
+        "text": "and insignificant terms that have been removed from the coded equation. Table 5 shows the ANOVA and the statistical significance of different factors in the constructed model for the coefficient of friction (COF) of the FRPC. The F-value (147.9) for the quadratic fitted model concerning the COF of FRPC presents the significance of the model, and the p-value within 0.0001. The developed model F-value of 4.40 lacks of fit, suggesting a 9.30% probability that a lack of fit could occur because of random noise. A lack of fit, which is non-significant, is favorable, as it suggests that the model can accurately predict COF. According to the data in Table 5, load emerged as the most significant process parameter, with an F value of 1152.82, influencing the coefficient of friction. This was followed by distance, with an F value of 147.04. When the load is increased, the pressure between the composite and the counter surface of the disc increases as a result of the greater contact area formed, which enhances interfacial adhesion and mechanical interlocking, so the COF increases. Speed with an F-value of 12.27 is the least significant. In the interaction terms, the interaction between speed and distance, with an",
+        "page": 9,
+        "score": 0.7175081968307495,
+        "rank": 1
+      },
+      {
+        "chunk_id": "chunk_28",
+        "text": "experiments, leading to the softening of the flax fiber and a consequent reduction in the wear rate. Figure 8c shows the relationship between the load and sliding distance on composite wear, showing that increased load and distance result in higher SWR owing to prolonged contact with the rotating disc. To achieve a high COF and low SWR, the optimal process parameters were determined using Particle Swarm Optimization (PSO). Figure 6. a) normal probability vs residuals b) residual- run c) externally studentized vs predicted d) predicted vs actual for SWR of FRPC.JOURNAL OF NATURAL FIBERS 11",
+        "page": 12,
+        "score": 0.6851768493652344,
+        "rank": 2
+      },
+      {
+        "chunk_id": "chunk_23",
+        "text": "polymer composites (FRPC). The quadratic model for the SWR of FRPC yielded an F-value of 799.99, indicating the model’s significance with a p-value of less than 0.0001. The lack of fit (F) value of 4.32 suggests a 9.56% probability that such a large value could result from random noise. A non-significant lack of fit is preferable because it demonstrates the model’s capability to predict the SWR accurately. Among the linear terms, the load was identified as the most significant factor, with an F-value of 4289.29, which is consistent with the previously mentioned rationale concerning the COF. This was followed by distance, which exhibited an F-value of 410.51. Speed was the least influential factor, with an F value of 36.28. Among the interaction terms, the combination of load and distance was the most significant, with an F value of 34.64. The fit statistics for SWR are presented in Table 8, which also provides significant outcomes, as discussed in the preceding literature for the coefficient of fric- tion (COF).Table 6. Fit statistic for COF.Std. Dev. 0.0131 R2 0.9948 Mean 0.5271 Adjusted R2 0.9880 C.V. % 2.49 Predicted R2 0.9339 Adeq Precision 42.4831Table 7. ANOVA results for SWR.Source Sum of Squares df Mean",
+        "page": 10,
+        "score": 0.678019642829895,
+        "rank": 3
+      },
+      {
+        "chunk_id": "chunk_27",
+        "text": "Effect of load, speed, and distance on COF and SWR Figures 7 and 8 illustrate the influence of the process parameters on the coefficient of friction (COF) and specific wear rate (SWR) of the developed flax fiber-reinforced polymer composite (FRPC) through three- dimensional and two-dimensional contour plots. Figures 7(a-c) demonstrate that an increase in load, speed, and sliding distance results in a corresponding increase in the COF. Among these factors, the load exerted the most significant impact, as a higher load led to greater contact with the rotating disc. Initially, the matrix layer wears out, causing the flax fiber to come into direct contact with the rotating disc, thereby increasing the COF. In a similar vein, Figure 8a indicates that the SWR increases with the load for reasons analogous to those affecting the COF. However, Figure 8b shows that although the SWR initially increased with increasing speed and sliding distance, it subsequently decreased. This is attributed to the rapid abrasion of the outermost layer (matrix) of the composite at high disc speeds, which exposed the flax fiber to direct contact with the rotating disc. This rapid abrasion elevates the interface temperature, as measured by an infrared thermal gun during the",
+        "page": 12,
+        "score": 0.677158772945404,
+        "rank": 4
+      },
+      {
+        "chunk_id": "chunk_21",
+        "text": "F-value of 2.32, was significant. As speed and distance increased, the rubbing of the composites against the counter disc occurred more, leading to an increase in temperature within the contact area. This resulted in enhanced interlocking and adhesion, thereby increasing the coefficient of friction (COF). The quadratic fitted model demonstrated substantial effects of the quadratic term between the factors, as indicated by the p-value of 0.0409 for distance. This is because the terms which has a p-value under 0.05 are considered significant, whereas exceeding 0.1 suggests that the terms are non-significant.Table 5. ANOVA for the COF.Source Sum of Squares df Mean Square F-value p-value Model 0.2291 9 0.0255 147.91 <0.0001 significant A-Load 0.1984 1 0.1984 1152.82 <0.0001 B-Speed 0.0021 1 0.0021 12.27 0.0100 C-Distance 0.0253 1 0.0253 147.04 <0.0001 AB 0.0000 1 0.0000 0.1452 0.7144 AC 0.0002 1 0.0002 1.31 0.2905 BC 0.0004 1 0.0004 2.32 0.1712 A2 0.0008 1 0.0008 4.46 0.0726 B2 0.0005 1 0.0005 2.96 0.1291 C2 0.0011 1 0.0011 6.26 0.0409 Residual 0.0012 7 0.0002 Lack of Fit 0.0009 3 0.0003 4.40 0.0930 not significant Pure Error 0.0003 4 0.0001 Cor Total 0.2304 168 R. SHRIVASTAVA AND V. PARASHAR",
+        "page": 9,
+        "score": 0.6701657176017761,
+        "rank": 5
+      },
+      {
+        "chunk_id": "chunk_1",
+        "text": "Optimization of Tribological Process Parameters of Flax Fiber Reinforced Polymer Composites Using Box-Behnken Design and GRA-PSORahul Shrivastava and Vishal Parashar Department of Mechanical Engineering, Maulana Azad National Institute of Technology, Bhopal IndiaABSTRACT This study investigates the optimal tribological process parameters for a flax fiber- reinforced polymer composite (FRPC) to maximize the coefficient of friction (COF) while minimizing the specific wear rate (SWR). The tribological characteristics were evaluated using a pin-on-disc setup under three operational conditions: load (30, 40, and 50 N), speed (100, 250, and 400 rpm), and sliding distance (100, 250, and 400 m). The Box-Behnken Design (BBD) was employed, with optimization performed through Grey Relational Analysis (GRA) and Particle Swarm Optimization (PSO). Analysis of Variance (ANOVA) was used to interpret the results. The results demonstrated that the optimal conditions, as determined by PSO, were a load of 35.8 N, speed of 220.3 rpm, and sliding distance of 209.6 m. The ANOVA revealed that load significantly influenced both the COF and SWR, with higher loads leading to increases in both the COF and SWR. A single- objective PSO was conducted for both COF and SWR. GRA evaluated optimal weights for COF and SWR of approximately 51% and 49%, respectively.",
+        "page": 2,
+        "score": 0.6546121835708618,
+        "rank": 6
+      },
+      {
+        "chunk_id": "chunk_35",
+        "text": "subjected to speed and sliding distance. Figures 10(b,c,k,f,i,j) show the OM and SEM images of the composites concerning changes in speed and distance, respectively. As the speed and distance increased, the rubbing of the composites against the counter surface intensified, and due to friction, heat was generated, resulting in delamination, plastic deformation, and cracks in the matrix of the composites.Conclusions This study optimized the most important factors which has the maximum impact on the COF and SWR of flax fiber-reinforced polymer composites, and developed a regression-fitted model using response surface methodology, and then identified an optimal combination of process parameters to achieve the maximum COF and the minimum SWR. GRA-PSO was used for the optimization process.● The ideal conditions achieved from single objective PSO for the maximum value of COF are a load of 49.1 N, a speed of 392.7 rpm, and 399.3 m sliding distance.● The best results obtained from single objective PSO for the minimum value of SWR are at load 33.1 N, speed 140.4 rpm, and the sliding distance 106.2 m.● ANOVA analysis shows that load is the most significant process parameter for the COF and SWR of flax fiber reinforced polymer composites.● Optical microscopy and SEM",
+        "page": 17,
+        "score": 0.6417903900146484,
+        "rank": 7
+      },
+      {
+        "chunk_id": "chunk_25",
+        "text": "The adequacy and the diagnostics of residual plots Figures 5 and 6 exhibit the residual diagnostics and predictive performance of the developed models for the coefficient of friction (COF) and specific wear rate (SWR) of flax fiber-reinforced polymer composites (FRPC). Figures 5a and 6a show the plots of normal probability for the COF and SWR, where a simple straight line is observed, suggesting that the errors follow a normal distribution and an adequately fitted model formation. The externally residual points aligned along a straight line in the normal probability graph signify the adequacy of the model, thereby allowing it to navigate the design space. Figures 5b and 6b illustrate that the data were distributed randomly in the studentized residuals plots without surpassing the lower and upper limits. This demonstrates the constant variation in the experiments and negates the necessity for response transformation in the experimental design. Figures 5c and 6c present the plot of external residuals and the predicted response of COF and SWR, respectively. The residuals do not cause significant scattering across the “0” line, affirming the accuracy of the developed model. Figures 5d and 6d show the comparison between the experimentally obtained COF and SWR of the flax",
+        "page": 11,
+        "score": 0.6181454062461853,
+        "rank": 8
+      }
+    ],
+    "metrics": {
+      "embedding_latency_seconds": 2.4659,
+      "retrieval_latency_seconds": 0.0002,
+      "generation_latency_seconds": 9.4973,
+      "total_latency_seconds": 11.9637,
+      "input_tokens": 2459,
+      "output_tokens": 80,
+      "total_tokens": 2539,
+      "estimated_cost_usd": 0.001112
+    },
+    "evaluation_version": "V1",
+    "timestamp": "2026-09-26T12:51:02.123439"
+  },
+  {
+    "id": "Q03",
+    "question": "What were the R², adjusted R², and predicted R² values for the coefficient of friction (COF) model?",
+    "category": "numerical",
+    "answer": "The R², adjusted R², and predicted R² values for the coefficient of friction (COF) model were 0.9948, 0.9880, and 0.9339, respectively (Page 10 | Chunk chunk_22).",
+    "sources": [
+      {
+        "chunk_id": "chunk_22",
+        "text": "A regression coefficient (R2 ) value of 0.9948 indicates that the developed model effectively captures the relationship between the important terms. This outcome suggests a high level of reliability in the empirical model data, as the R2 value was very close to 1. Similarly, the adjusted R2 value of the model was also close to 1 (0.9880), demonstrating a strong agreement between the R2 and adjusted R2 values, with an approximate confidence level of 95%. Additionally, the value of predicted R2 (0.9339) was reasonably consistent with the value of adjusted R2 , as their difference was always below 0.2. The reproducibility of the developed model was analyzed by the value of the coefficient of variance (CV), shown in Table 6. The lower value of C.V., which is 2.49% obtained in this study, was less than 10%, indicating a precise estimate between predicted and actual models. The high precision ratio of 42.4831, which is significantly greater than 4, suggests a sufficient signal, indicating that the respective models are suitable for exploring the design space. As previously discussed for the COF, similarly, Table 7 presents an analysis of variance (ANOVA) and the statistical significance of the specific wear rate (SWR) of fiber-reinforced",
+        "page": 10,
+        "score": 0.670315682888031,
+        "rank": 1
+      },
+      {
+        "chunk_id": "chunk_20",
+        "text": "and insignificant terms that have been removed from the coded equation. Table 5 shows the ANOVA and the statistical significance of different factors in the constructed model for the coefficient of friction (COF) of the FRPC. The F-value (147.9) for the quadratic fitted model concerning the COF of FRPC presents the significance of the model, and the p-value within 0.0001. The developed model F-value of 4.40 lacks of fit, suggesting a 9.30% probability that a lack of fit could occur because of random noise. A lack of fit, which is non-significant, is favorable, as it suggests that the model can accurately predict COF. According to the data in Table 5, load emerged as the most significant process parameter, with an F value of 1152.82, influencing the coefficient of friction. This was followed by distance, with an F value of 147.04. When the load is increased, the pressure between the composite and the counter surface of the disc increases as a result of the greater contact area formed, which enhances interfacial adhesion and mechanical interlocking, so the COF increases. Speed with an F-value of 12.27 is the least significant. In the interaction terms, the interaction between speed and distance, with an",
+        "page": 9,
+        "score": 0.6497994661331177,
+        "rank": 2
+      },
+      {
+        "chunk_id": "chunk_21",
+        "text": "F-value of 2.32, was significant. As speed and distance increased, the rubbing of the composites against the counter disc occurred more, leading to an increase in temperature within the contact area. This resulted in enhanced interlocking and adhesion, thereby increasing the coefficient of friction (COF). The quadratic fitted model demonstrated substantial effects of the quadratic term between the factors, as indicated by the p-value of 0.0409 for distance. This is because the terms which has a p-value under 0.05 are considered significant, whereas exceeding 0.1 suggests that the terms are non-significant.Table 5. ANOVA for the COF.Source Sum of Squares df Mean Square F-value p-value Model 0.2291 9 0.0255 147.91 <0.0001 significant A-Load 0.1984 1 0.1984 1152.82 <0.0001 B-Speed 0.0021 1 0.0021 12.27 0.0100 C-Distance 0.0253 1 0.0253 147.04 <0.0001 AB 0.0000 1 0.0000 0.1452 0.7144 AC 0.0002 1 0.0002 1.31 0.2905 BC 0.0004 1 0.0004 2.32 0.1712 A2 0.0008 1 0.0008 4.46 0.0726 B2 0.0005 1 0.0005 2.96 0.1291 C2 0.0011 1 0.0011 6.26 0.0409 Residual 0.0012 7 0.0002 Lack of Fit 0.0009 3 0.0003 4.40 0.0930 not significant Pure Error 0.0003 4 0.0001 Cor Total 0.2304 168 R. SHRIVASTAVA AND V. PARASHAR",
+        "page": 9,
+        "score": 0.6447297930717468,
+        "rank": 3
+      },
+      {
+        "chunk_id": "chunk_23",
+        "text": "polymer composites (FRPC). The quadratic model for the SWR of FRPC yielded an F-value of 799.99, indicating the model’s significance with a p-value of less than 0.0001. The lack of fit (F) value of 4.32 suggests a 9.56% probability that such a large value could result from random noise. A non-significant lack of fit is preferable because it demonstrates the model’s capability to predict the SWR accurately. Among the linear terms, the load was identified as the most significant factor, with an F-value of 4289.29, which is consistent with the previously mentioned rationale concerning the COF. This was followed by distance, which exhibited an F-value of 410.51. Speed was the least influential factor, with an F value of 36.28. Among the interaction terms, the combination of load and distance was the most significant, with an F value of 34.64. The fit statistics for SWR are presented in Table 8, which also provides significant outcomes, as discussed in the preceding literature for the coefficient of fric- tion (COF).Table 6. Fit statistic for COF.Std. Dev. 0.0131 R2 0.9948 Mean 0.5271 Adjusted R2 0.9880 C.V. % 2.49 Predicted R2 0.9339 Adeq Precision 42.4831Table 7. ANOVA results for SWR.Source Sum of Squares df Mean",
+        "page": 10,
+        "score": 0.6065243482589722,
+        "rank": 4
+      },
+      {
+        "chunk_id": "chunk_25",
+        "text": "The adequacy and the diagnostics of residual plots Figures 5 and 6 exhibit the residual diagnostics and predictive performance of the developed models for the coefficient of friction (COF) and specific wear rate (SWR) of flax fiber-reinforced polymer composites (FRPC). Figures 5a and 6a show the plots of normal probability for the COF and SWR, where a simple straight line is observed, suggesting that the errors follow a normal distribution and an adequately fitted model formation. The externally residual points aligned along a straight line in the normal probability graph signify the adequacy of the model, thereby allowing it to navigate the design space. Figures 5b and 6b illustrate that the data were distributed randomly in the studentized residuals plots without surpassing the lower and upper limits. This demonstrates the constant variation in the experiments and negates the necessity for response transformation in the experimental design. Figures 5c and 6c present the plot of external residuals and the predicted response of COF and SWR, respectively. The residuals do not cause significant scattering across the “0” line, affirming the accuracy of the developed model. Figures 5d and 6d show the comparison between the experimentally obtained COF and SWR of the flax",
+        "page": 11,
+        "score": 0.595508337020874,
+        "rank": 5
+      },
+      {
+        "chunk_id": "chunk_26",
+        "text": "composites and those predicted by the developed regression polynomial, confirming the proximity of the predicted values to the actual values. Figure 5. a) normal probability vs residuals b) residual- run c) externally studentized vs predicted d) predicted vs actual values for COF of FRPC.10 R. SHRIVASTAVA AND V. PARASHAR",
+        "page": 11,
+        "score": 0.5303612947463989,
+        "rank": 6
+      },
+      {
+        "chunk_id": "chunk_24",
+        "text": "Square F- value p-value Model 75033.52 9 8337.06 799.99 <0.0001 significant A-Load 44700.50 1 44700.50 4289.29 <0.0001 B-Speed 378.13 1 378.13 36.28 0.0005 C-Distance 4278.13 1 4278.13 410.51 <0.0001 AB 144.00 1 144.00 13.82 0.0075 AC 361.00 1 361.00 34.64 0.0006 BC 12.25 1 12.25 1.18 0.3142 A2 33.60 1 33.60 3.22 0.1156 B2 7225.39 1 7225.39 693.32 <0.0001 C2 16671.81 1 16671.81 1599.76 <0.0001 Residual 72.95 7 10.42 Lack of Fit 55.75 3 18.58 4.32 0.0956 not significant Pure Error 17.20 4 4.30 Cor Total 75106.47 16Table 8. Fit statistic for SWR.Std. Dev. 3.23 R2 0.9990 Mean 252.82 Adjusted R2 0.9978 C.V. % 1.28 Predicted R2 0.9878 Adeq Precision 87.4417JOURNAL OF NATURAL FIBERS 9",
+        "page": 10,
+        "score": 0.5044979453086853,
+        "rank": 7
+      },
+      {
+        "chunk_id": "chunk_32",
+        "text": "a 30N load display wear tracks and a matrix layer covering the flax fiber. However, as the load increases to 40N, the pressure between the composite and counter disc also increases, resulting in matrix delamination, matrix cracking, and fiber exposure, as depicted in Figure 10(d,h). Ultimately, when the samples were subjected to a 50N load, the matrix was continuously removed from the fiber surface, causing the fiber to contact the counter-rotating disc, and adhesion between the composite and disc also increased, thereby increasing the COF and SWR. Adhesion between two contact surfaces leads to atomic bonds that exceed the intrinsic properties of the materials. Consequently, the continuous movement of the composites Table 9. Fitness function of COF and SWR of FRPC for PSO.Maximization COF = +0.042611 + 0.005783 A − 0.000314 B +0.000108 C +1.66667E-06AB − 5.00000E-06 BC + 4.44444E-07 CA +0.000135A2 +4.88889E-07 B2 +7.11111E-07 C2 Minimization SWR = −321.25 +5.79833A + 0.825833 B + 1.82528 C + 0.004 AB- 0.00633 BC- 0.000078 CA + 0.02825 A2 −0.001841 B2 − 0.002797 C2 Figure 9. Fitness function vs iteration PSO plot.Table 10. PSO results and confirmatory test.Optimization (single and multi-objective) Load (N) Speed (rpm) Distance (m) PSO- Optimum Value Experimental Value",
+        "page": 15,
+        "score": 0.490797221660614,
+        "rank": 8
+      }
+    ],
+    "metrics": {
+      "embedding_latency_seconds": 0.7598,
+      "retrieval_latency_seconds": 0.0001,
+      "generation_latency_seconds": 4.5876,
+      "total_latency_seconds": 5.3479,
+      "input_tokens": 2541,
+      "output_tokens": 54,
+      "total_tokens": 2595,
+      "estimated_cost_usd": 0.001103
+    },
+    "evaluation_version": "V1",
+    "timestamp": "2026-09-26T12:51:07.710057"
+  },
+  {
+    "id": "Q04",
+    "question": "What were the R², adjusted R², and predicted R² values for the specific wear rate (SWR) model?",
+    "category": "numerical",
+    "answer": "The R², adjusted R², and predicted R² values for the specific wear rate (SWR) model were 0.9990, 0.9978, and 0.9878, respectively (Page 10 | Chunk chunk_24).",
+    "sources": [
+      {
+        "chunk_id": "chunk_22",
+        "text": "A regression coefficient (R2 ) value of 0.9948 indicates that the developed model effectively captures the relationship between the important terms. This outcome suggests a high level of reliability in the empirical model data, as the R2 value was very close to 1. Similarly, the adjusted R2 value of the model was also close to 1 (0.9880), demonstrating a strong agreement between the R2 and adjusted R2 values, with an approximate confidence level of 95%. Additionally, the value of predicted R2 (0.9339) was reasonably consistent with the value of adjusted R2 , as their difference was always below 0.2. The reproducibility of the developed model was analyzed by the value of the coefficient of variance (CV), shown in Table 6. The lower value of C.V., which is 2.49% obtained in this study, was less than 10%, indicating a precise estimate between predicted and actual models. The high precision ratio of 42.4831, which is significantly greater than 4, suggests a sufficient signal, indicating that the respective models are suitable for exploring the design space. As previously discussed for the COF, similarly, Table 7 presents an analysis of variance (ANOVA) and the statistical significance of the specific wear rate (SWR) of fiber-reinforced",
+        "page": 10,
+        "score": 0.6834304332733154,
+        "rank": 1
+      },
+      {
+        "chunk_id": "chunk_24",
+        "text": "Square F- value p-value Model 75033.52 9 8337.06 799.99 <0.0001 significant A-Load 44700.50 1 44700.50 4289.29 <0.0001 B-Speed 378.13 1 378.13 36.28 0.0005 C-Distance 4278.13 1 4278.13 410.51 <0.0001 AB 144.00 1 144.00 13.82 0.0075 AC 361.00 1 361.00 34.64 0.0006 BC 12.25 1 12.25 1.18 0.3142 A2 33.60 1 33.60 3.22 0.1156 B2 7225.39 1 7225.39 693.32 <0.0001 C2 16671.81 1 16671.81 1599.76 <0.0001 Residual 72.95 7 10.42 Lack of Fit 55.75 3 18.58 4.32 0.0956 not significant Pure Error 17.20 4 4.30 Cor Total 75106.47 16Table 8. Fit statistic for SWR.Std. Dev. 3.23 R2 0.9990 Mean 252.82 Adjusted R2 0.9978 C.V. % 1.28 Predicted R2 0.9878 Adeq Precision 87.4417JOURNAL OF NATURAL FIBERS 9",
+        "page": 10,
+        "score": 0.617500364780426,
+        "rank": 2
+      },
+      {
+        "chunk_id": "chunk_23",
+        "text": "polymer composites (FRPC). The quadratic model for the SWR of FRPC yielded an F-value of 799.99, indicating the model’s significance with a p-value of less than 0.0001. The lack of fit (F) value of 4.32 suggests a 9.56% probability that such a large value could result from random noise. A non-significant lack of fit is preferable because it demonstrates the model’s capability to predict the SWR accurately. Among the linear terms, the load was identified as the most significant factor, with an F-value of 4289.29, which is consistent with the previously mentioned rationale concerning the COF. This was followed by distance, which exhibited an F-value of 410.51. Speed was the least influential factor, with an F value of 36.28. Among the interaction terms, the combination of load and distance was the most significant, with an F value of 34.64. The fit statistics for SWR are presented in Table 8, which also provides significant outcomes, as discussed in the preceding literature for the coefficient of fric- tion (COF).Table 6. Fit statistic for COF.Std. Dev. 0.0131 R2 0.9948 Mean 0.5271 Adjusted R2 0.9880 C.V. % 2.49 Predicted R2 0.9339 Adeq Precision 42.4831Table 7. ANOVA results for SWR.Source Sum of Squares df Mean",
+        "page": 10,
+        "score": 0.6126309633255005,
+        "rank": 3
+      },
+      {
+        "chunk_id": "chunk_25",
+        "text": "The adequacy and the diagnostics of residual plots Figures 5 and 6 exhibit the residual diagnostics and predictive performance of the developed models for the coefficient of friction (COF) and specific wear rate (SWR) of flax fiber-reinforced polymer composites (FRPC). Figures 5a and 6a show the plots of normal probability for the COF and SWR, where a simple straight line is observed, suggesting that the errors follow a normal distribution and an adequately fitted model formation. The externally residual points aligned along a straight line in the normal probability graph signify the adequacy of the model, thereby allowing it to navigate the design space. Figures 5b and 6b illustrate that the data were distributed randomly in the studentized residuals plots without surpassing the lower and upper limits. This demonstrates the constant variation in the experiments and negates the necessity for response transformation in the experimental design. Figures 5c and 6c present the plot of external residuals and the predicted response of COF and SWR, respectively. The residuals do not cause significant scattering across the “0” line, affirming the accuracy of the developed model. Figures 5d and 6d show the comparison between the experimentally obtained COF and SWR of the flax",
+        "page": 11,
+        "score": 0.6012893319129944,
+        "rank": 4
+      },
+      {
+        "chunk_id": "chunk_28",
+        "text": "experiments, leading to the softening of the flax fiber and a consequent reduction in the wear rate. Figure 8c shows the relationship between the load and sliding distance on composite wear, showing that increased load and distance result in higher SWR owing to prolonged contact with the rotating disc. To achieve a high COF and low SWR, the optimal process parameters were determined using Particle Swarm Optimization (PSO). Figure 6. a) normal probability vs residuals b) residual- run c) externally studentized vs predicted d) predicted vs actual for SWR of FRPC.JOURNAL OF NATURAL FIBERS 11",
+        "page": 12,
+        "score": 0.5409536361694336,
+        "rank": 5
+      },
+      {
+        "chunk_id": "chunk_37",
+        "text": "209 m sliding distance) to get a maximum coefficient of friction of 0.427 and a minimum specific wear rate of 255.5 × 10−5 mm3/Nm simultaneously.● Optical Microscope and Scanning Electron Microscopy were used to analyze the wear surface of the tested composites.Author contributionsAll authors contributed to the study’s conception and design. Material preparation, data collection, and analysis were performed by Rahul Shrivastava and Vishal Parashar. The first draft of the manuscript was written by Rahul Shrivastava, and all authors read and approved the final manuscript.Disclosure statementNo potential conflict of interest was reported by the author(s).16 R. SHRIVASTAVA AND V. PARASHAR",
+        "page": 17,
+        "score": 0.5140916705131531,
+        "rank": 6
+      },
+      {
+        "chunk_id": "chunk_27",
+        "text": "Effect of load, speed, and distance on COF and SWR Figures 7 and 8 illustrate the influence of the process parameters on the coefficient of friction (COF) and specific wear rate (SWR) of the developed flax fiber-reinforced polymer composite (FRPC) through three- dimensional and two-dimensional contour plots. Figures 7(a-c) demonstrate that an increase in load, speed, and sliding distance results in a corresponding increase in the COF. Among these factors, the load exerted the most significant impact, as a higher load led to greater contact with the rotating disc. Initially, the matrix layer wears out, causing the flax fiber to come into direct contact with the rotating disc, thereby increasing the COF. In a similar vein, Figure 8a indicates that the SWR increases with the load for reasons analogous to those affecting the COF. However, Figure 8b shows that although the SWR initially increased with increasing speed and sliding distance, it subsequently decreased. This is attributed to the rapid abrasion of the outermost layer (matrix) of the composite at high disc speeds, which exposed the flax fiber to direct contact with the rotating disc. This rapid abrasion elevates the interface temperature, as measured by an infrared thermal gun during the",
+        "page": 12,
+        "score": 0.4892800450325012,
+        "rank": 7
+      },
+      {
+        "chunk_id": "chunk_10",
+        "text": "a total of 17 tests were conducted, according to the Box-Behnken design. Before the experiment, to confirm approximately 0 N load over the pin, the dead weights were balanced on both sides, and also to minimize the experimental uncertainty, an electronic sensor apparatus was used to measure the coefficient of friction and material loss. Before each test, the sensor was recalibrated to ensure the consistency and reliability of the results. Furthermore, the counter surface was meticulously cleaned, and appropriate cooling was applied before each test. The COF was obtained directly from the system, and SWR was calculated by Equation 2 (P et al. 2024). A steel disc with a 60 mm track diameter is used for the wear test. A composite sample is kept fixed, and the disc is rotating against its center at various speeds. The rubbing of the developed composite also generated heat, which increased the temperature of the samples, so the temperature of each specimen after the experiments was measured through an infrared thermal gun. Initially, all the specimens were placed at room temperature. Box Behnken design The Box Behnken Design (BBD) was employed in this study to structure the experimental runs as part of the Response",
+        "page": 5,
+        "score": 0.4864046275615692,
+        "rank": 8
+      }
+    ],
+    "metrics": {
+      "embedding_latency_seconds": 1.8261,
+      "retrieval_latency_seconds": 0.0003,
+      "generation_latency_seconds": 2.1263,
+      "total_latency_seconds": 3.9535,
+      "input_tokens": 2160,
+      "output_tokens": 54,
+      "total_tokens": 2214,
+      "estimated_cost_usd": 0.00095
+    },
+    "evaluation_version": "V1",
+    "timestamp": "2026-09-26T12:51:11.843812"
+  },
+  {
+    "id": "Q05",
+    "question": "What were the multi-objective PSO optimum process parameters, and what were the predicted and experimentally obtained COF and SWR values?",
+    "category": "numerical",
+    "answer": "The multi-objective PSO (MO-PSO) optimum process parameters were a load of 35.8 N, speed of 220.3 rpm, and sliding distance of 209.6 m. The predicted COF and SWR values were 0.427 and 2.214 (×10⁻⁵ mm³/Nm), respectively. The experimentally obtained COF and SWR values were 0.413 and 2.255 (×10⁻⁵ mm³/Nm), respectively. The error percentage for COF was 3.3% and for SWR was 2.2% (Page 15 | Chunk chunk_33 and chunk_31).",
+    "sources": [
+      {
+        "chunk_id": "chunk_29",
+        "text": "Particle swarm optimization The objective functions for the COF and SWR, derived from the Box-Behnken design, are presented in Table 9. These functions were used to maximize and minimize the respective parameters. MATLAB software was used to optimize both single and multi-objective functions. The tuning parameters included a population size of 50 and 1000 iterations for the PSO algorithm. Figure 9(a-c) shows the convergence curve obtained from PSO optimization. The convergence plot shows the required number of iterations to achieve the optimum solution of single and multi- objective fitness functions of COF and SWR. Both the responses, COF and SWR, were optimized Figure 7. 3D and 2D plots of (a) load vs speed, (b) speed vs distance (c) load vs distance on the COF of developed flax epoxy composites.12 R. SHRIVASTAVA AND V. PARASHAR",
+        "page": 13,
+        "score": 0.7710318565368652,
+        "rank": 1
+      },
+      {
+        "chunk_id": "chunk_30",
+        "text": "individually and collectively to obtain the optimum results. In Figure 9, results exhibit that COF required the minimum number of iterations for the optimum results, followed by MO-PSO and SWR-PSO achieved the optimum value at the maximum number of iterations. Figure 8. 3D and 2D plots of (a) load vs speed, (b) speed vs distance, (c) load vs distance on SWR of developed FRPC.JOURNAL OF NATURAL FIBERS 13",
+        "page": 14,
+        "score": 0.7417800426483154,
+        "rank": 2
+      },
+      {
+        "chunk_id": "chunk_33",
+        "text": "Error (%) COF-PSO 49.1 392.7 399.3 0.717 0.739 2.97 SWR-PSO (mm3 /Nm) ×10−5 ) 33.1 140.4 106.2 138 143 3.1 MO-PSO COF & SWR (mm3 /Nm) ×10−5 ) 35.8 35.8 220.3 220.3 209.6 209.6 0.427 255.5 0.413 250 3.3 2.214 R. SHRIVASTAVA AND V. PARASHAR",
+        "page": 15,
+        "score": 0.7135305404663086,
+        "rank": 3
+      },
+      {
+        "chunk_id": "chunk_31",
+        "text": "Confirmation experiments for optimum GRA-PSO parameters The efficacy of the PSO was assessed using a confirmatory test with the same experimental setup. The results of the tests for both single-objective (SO-PSO) and multi-objective (MO-PSO) optimization are presented in Table 10. Table 10 presents the findings of a confirmatory experiment conducted using the process parameters derived from the PSO optimization. The data indicated that the discrepancy between the predicted and actual experimental values was less than 5%, demonstrating that PSO yielded optimal results. Optical microscopy (OM) and SEM of the wear surface of composites The wear surface of the FRPC, as observed after using the pin-on-disc machine, is illustrated in Figure 10. Figures 10(a-f) are the optical microscopy images, and Figure 10(g-i) are SEM images at 50x, 100x, and 200x of the worn samples of developed composites. Figure 10 demonstrates that the primary causes of composite failure are the formation of microcracks, matrix delamination, matrix breakage, fiber pull-out, and fiber fracture. The ANOVA results for COF and SWR, as detailed in Tables 5 and 7, reveal that the normal load exerted the most substantial impact on the surface of the developed composites. In Figure 10(a,g), the OM and SEM images at",
+        "page": 15,
+        "score": 0.7084012031555176,
+        "rank": 4
+      },
+      {
+        "chunk_id": "chunk_35",
+        "text": "subjected to speed and sliding distance. Figures 10(b,c,k,f,i,j) show the OM and SEM images of the composites concerning changes in speed and distance, respectively. As the speed and distance increased, the rubbing of the composites against the counter surface intensified, and due to friction, heat was generated, resulting in delamination, plastic deformation, and cracks in the matrix of the composites.Conclusions This study optimized the most important factors which has the maximum impact on the COF and SWR of flax fiber-reinforced polymer composites, and developed a regression-fitted model using response surface methodology, and then identified an optimal combination of process parameters to achieve the maximum COF and the minimum SWR. GRA-PSO was used for the optimization process.● The ideal conditions achieved from single objective PSO for the maximum value of COF are a load of 49.1 N, a speed of 392.7 rpm, and 399.3 m sliding distance.● The best results obtained from single objective PSO for the minimum value of SWR are at load 33.1 N, speed 140.4 rpm, and the sliding distance 106.2 m.● ANOVA analysis shows that load is the most significant process parameter for the COF and SWR of flax fiber reinforced polymer composites.● Optical microscopy and SEM",
+        "page": 17,
+        "score": 0.6523017883300781,
+        "rank": 5
+      },
+      {
+        "chunk_id": "chunk_32",
+        "text": "a 30N load display wear tracks and a matrix layer covering the flax fiber. However, as the load increases to 40N, the pressure between the composite and counter disc also increases, resulting in matrix delamination, matrix cracking, and fiber exposure, as depicted in Figure 10(d,h). Ultimately, when the samples were subjected to a 50N load, the matrix was continuously removed from the fiber surface, causing the fiber to contact the counter-rotating disc, and adhesion between the composite and disc also increased, thereby increasing the COF and SWR. Adhesion between two contact surfaces leads to atomic bonds that exceed the intrinsic properties of the materials. Consequently, the continuous movement of the composites Table 9. Fitness function of COF and SWR of FRPC for PSO.Maximization COF = +0.042611 + 0.005783 A − 0.000314 B +0.000108 C +1.66667E-06AB − 5.00000E-06 BC + 4.44444E-07 CA +0.000135A2 +4.88889E-07 B2 +7.11111E-07 C2 Minimization SWR = −321.25 +5.79833A + 0.825833 B + 1.82528 C + 0.004 AB- 0.00633 BC- 0.000078 CA + 0.02825 A2 −0.001841 B2 − 0.002797 C2 Figure 9. Fitness function vs iteration PSO plot.Table 10. PSO results and confirmatory test.Optimization (single and multi-objective) Load (N) Speed (rpm) Distance (m) PSO- Optimum Value Experimental Value",
+        "page": 15,
+        "score": 0.6438864469528198,
+        "rank": 6
+      },
+      {
+        "chunk_id": "chunk_19",
+        "text": "The movement of velocity and position of the ith particle are presented in square brackets. The pbest and gbest value of the current space solution is achieved by using input variables. Thus, gbest provides instruction and investigates the position of particles and approaches to reach the best results. This is the advantage of PSO, achieving an absolute value and adjusting with some variables. To halt the search, the number of iterations should be maximum, or the criterion of minimum error should be achieved. The size of the particle, learning factor, dimension, range, stop condition, and local vs global are some of the factors in PSO. Thus, all the factors were explored, which follow PSO algorithms. Scanning electron microscopy (SEM) SEM uses an electron beam to generate high-resolution images of fractured samples. JEOL-JSM 6390A was used for the SEM image, which revealed fiber pullout, debonding, and fractured surfaces of the developed composite. Images were obtained at ETH = 2 KV, and magnification = 50x,100x, and 200x.Results and discussionAnalysis of variance (ANOVA) for COF and SWR Design expert software was used for the experimental data analysis. A quadratic model is obtained for both responses. ANOVA shows the influence of different input parameters",
+        "page": 9,
+        "score": 0.624840259552002,
+        "rank": 7
+      },
+      {
+        "chunk_id": "chunk_13",
+        "text": "preferred over replication at each point because the design is strategically structured to optimize informa- tion about the system while minimizing the number of experimental runs required (Kechagias and Vidakis 2022). So, to ensure the reliability of the experimental results, five replications were conducted at the center point (40 N, 250 rpm, and 250 m), corresponding to experiments 11, 12, 14, 15, and 16 in Table 2. The observed deviation of 0.02 among these replications was minimal and could be attributed to uncontrollable factors, such as environmental variations. The process factors and their levels are given in Table 1, and the data obtained from the experiments are shown in Table 2. Grey relational analysis GRA was utilized to change multi-objective functions into a single-objective function (Arslane et al. 2025; Rajendran, Paul, and Shunmugesh 2021). In this study, COF and SWR were taken as the primary responses. To achieve manufacturing objectives, it is crucial to maximize the COF while minimizing the SWR. In single-objective optimization, the focus is on optimizing a single response. In contrast, multi-objective Table 1. Factors and their levels.Factor Name Units Type Sub-type Coded value Low (−1) Mean (0) High (+1) A Load N Numeric Continuous 30 40",
+        "page": 6,
+        "score": 0.5925924777984619,
+        "rank": 8
+      }
+    ],
+    "metrics": {
+      "embedding_latency_seconds": 0.9332,
+      "retrieval_latency_seconds": 0.0002,
+      "generation_latency_seconds": 2.3671,
+      "total_latency_seconds": 3.3023,
+      "input_tokens": 2098,
+      "output_tokens": 144,
+      "total_tokens": 2242,
+      "estimated_cost_usd": 0.00107
+    },
+    "evaluation_version": "V1",
+    "timestamp": "2026-09-26T12:51:15.508757"
+  },
+  {
+    "id": "Q06",
+    "question": "Why does increasing the applied load generally increase both the coefficient of friction and specific wear rate of the flax fiber reinforced polymer composite?",
+    "category": "reasoning",
+    "answer": "Increasing the applied load generally increases both the coefficient of friction (COF) and specific wear rate (SWR) of the flax fiber reinforced polymer composite because a higher load leads to greater contact with the rotating disc. Initially, the matrix layer wears out, causing the flax fiber to come into direct contact with the rotating disc, which increases the COF. Similarly, the SWR increases due to prolonged contact and wear under higher load conditions. The load thus has the most significant impact on both COF and SWR by intensifying the interaction and wear mechanisms at the composite-disc interface (Page 12 | Chunk chunk_27, chunk_28; Page 17 | Chunk chunk_36).",
+    "sources": [
+      {
+        "chunk_id": "chunk_27",
+        "text": "Effect of load, speed, and distance on COF and SWR Figures 7 and 8 illustrate the influence of the process parameters on the coefficient of friction (COF) and specific wear rate (SWR) of the developed flax fiber-reinforced polymer composite (FRPC) through three- dimensional and two-dimensional contour plots. Figures 7(a-c) demonstrate that an increase in load, speed, and sliding distance results in a corresponding increase in the COF. Among these factors, the load exerted the most significant impact, as a higher load led to greater contact with the rotating disc. Initially, the matrix layer wears out, causing the flax fiber to come into direct contact with the rotating disc, thereby increasing the COF. In a similar vein, Figure 8a indicates that the SWR increases with the load for reasons analogous to those affecting the COF. However, Figure 8b shows that although the SWR initially increased with increasing speed and sliding distance, it subsequently decreased. This is attributed to the rapid abrasion of the outermost layer (matrix) of the composite at high disc speeds, which exposed the flax fiber to direct contact with the rotating disc. This rapid abrasion elevates the interface temperature, as measured by an infrared thermal gun during the",
+        "page": 12,
+        "score": 0.7430456280708313,
+        "rank": 1
+      },
+      {
+        "chunk_id": "chunk_36",
+        "text": "images show that at high load, the delamination, wear track, and fiber pull-out are the main causes of composite failure.● The GRA assigns a weight of approximately 51% to COF and 49% to SWR, indicating a slightly higher influence of COF in the overall evaluation.● Multi-optimization using GRA-PSO exhibits that at load 35.8 N, speed 220.3 rpm, and 209.6 m sliding distance, the COF is 0.427 and SWR is 255.5 × 10−5 mm 3 /Nm. In conclusion, the findings of this study indicate the considerable potential of flax fiber-reinforced polymer composites for applications necessitating high friction and low wear properties, thereby establishing these materials as promising candidates for future developments in sustainable and high-performance composite technologies.Highlights ● The study uniquely combines Box-Behnken design, Grey Relational Analysis (GRA), and Particle Swarm Optimization (PSO) to systematically investigate and optimize the tribological properties of Flax fiber-reinforced polymer composites.● The ANOVA data shows that load is the most significant factor for the coefficient of friction and Specific wear rate● Grey Relational Analysis assigned weights of approximately 51% and 49% to the coefficient of friction and SWR.● Results indicate that PSO provides the optimum combination of input process parameters (35.8 N load, 220 rpm, and",
+        "page": 17,
+        "score": 0.6999232769012451,
+        "rank": 2
+      },
+      {
+        "chunk_id": "chunk_28",
+        "text": "experiments, leading to the softening of the flax fiber and a consequent reduction in the wear rate. Figure 8c shows the relationship between the load and sliding distance on composite wear, showing that increased load and distance result in higher SWR owing to prolonged contact with the rotating disc. To achieve a high COF and low SWR, the optimal process parameters were determined using Particle Swarm Optimization (PSO). Figure 6. a) normal probability vs residuals b) residual- run c) externally studentized vs predicted d) predicted vs actual for SWR of FRPC.JOURNAL OF NATURAL FIBERS 11",
+        "page": 12,
+        "score": 0.6743529438972473,
+        "rank": 3
+      },
+      {
+        "chunk_id": "chunk_9",
+        "text": "for the fabrication of composites. Chemical properties of flax fiber are shown in Figure 2 (Yan, Chouw, and Jayaraman 2014). Fabrication The samples of composites were developed by using hand-lay-up compression molding. To maintain the rigidity of the epoxy resin and natural fiber matrix, a hardener was employed. The fiber was placed unidirectionally in a 100 × 100 × 10 mm3 mold and subjected to 700 N static compression for 24 h to ensure void-free production. To study the COF and SWR of flax composites, a 10 × 10 × 25 mm3 sample specimen has been taken from the cured composites. Friction and wear test The coefficient of friction and the wear test of flax-reinforced polymer composites were carried out on the pin-on-disc machine as per the ASTM G99 standard. The experimental setup is shown in Figure 1, and Figure 1. Experimental setup: a) pin-on-disc machine, b) composite samples, c) optical microscopy, d) SEM testing.JOURNAL OF NATURAL FIBERS 3",
+        "page": 4,
+        "score": 0.6493045091629028,
+        "rank": 4
+      },
+      {
+        "chunk_id": "chunk_1",
+        "text": "Optimization of Tribological Process Parameters of Flax Fiber Reinforced Polymer Composites Using Box-Behnken Design and GRA-PSORahul Shrivastava and Vishal Parashar Department of Mechanical Engineering, Maulana Azad National Institute of Technology, Bhopal IndiaABSTRACT This study investigates the optimal tribological process parameters for a flax fiber- reinforced polymer composite (FRPC) to maximize the coefficient of friction (COF) while minimizing the specific wear rate (SWR). The tribological characteristics were evaluated using a pin-on-disc setup under three operational conditions: load (30, 40, and 50 N), speed (100, 250, and 400 rpm), and sliding distance (100, 250, and 400 m). The Box-Behnken Design (BBD) was employed, with optimization performed through Grey Relational Analysis (GRA) and Particle Swarm Optimization (PSO). Analysis of Variance (ANOVA) was used to interpret the results. The results demonstrated that the optimal conditions, as determined by PSO, were a load of 35.8 N, speed of 220.3 rpm, and sliding distance of 209.6 m. The ANOVA revealed that load significantly influenced both the COF and SWR, with higher loads leading to increases in both the COF and SWR. A single- objective PSO was conducted for both COF and SWR. GRA evaluated optimal weights for COF and SWR of approximately 51% and 49%, respectively.",
+        "page": 2,
+        "score": 0.6445250511169434,
+        "rank": 5
+      },
+      {
+        "chunk_id": "chunk_35",
+        "text": "subjected to speed and sliding distance. Figures 10(b,c,k,f,i,j) show the OM and SEM images of the composites concerning changes in speed and distance, respectively. As the speed and distance increased, the rubbing of the composites against the counter surface intensified, and due to friction, heat was generated, resulting in delamination, plastic deformation, and cracks in the matrix of the composites.Conclusions This study optimized the most important factors which has the maximum impact on the COF and SWR of flax fiber-reinforced polymer composites, and developed a regression-fitted model using response surface methodology, and then identified an optimal combination of process parameters to achieve the maximum COF and the minimum SWR. GRA-PSO was used for the optimization process.● The ideal conditions achieved from single objective PSO for the maximum value of COF are a load of 49.1 N, a speed of 392.7 rpm, and 399.3 m sliding distance.● The best results obtained from single objective PSO for the minimum value of SWR are at load 33.1 N, speed 140.4 rpm, and the sliding distance 106.2 m.● ANOVA analysis shows that load is the most significant process parameter for the COF and SWR of flax fiber reinforced polymer composites.● Optical microscopy and SEM",
+        "page": 17,
+        "score": 0.6294111609458923,
+        "rank": 6
+      },
+      {
+        "chunk_id": "chunk_5",
+        "text": "fibers have shown excellent interfacial adhesion with polymer matrices when properly treated, which is critical for wear resistance. Xiao, Cheng, and Zhong (2021) investigated that chemical treatment improves the properties of natural fiber composites, and treatment of flax fibers with a 5% NaOH alkali solution is a common method used to enhance the mechanical properties of flax fiber-reinforced composites. In terms of tribological properties, limited studies have been conducted on natural fibers. Numerous researchers have explored the use of natural fibers as brake pad materials in automotive applications (Quamar and Sarkar 2024). Over the past few decades, natural fibers such as jute, bagasse, coir, grevia- optiva, palm, sisal, bamboo, and kenaf have been used to analyze the mechanical and tribological properties of composites (Mohana Krishnudu et al. 2023). Singh et al. (2023) investigated the tribological properties of Grevia-Optiva fiber composites and reported the friction of 0.4–0.45. Similarly, Nirmal (2010) reported that the fiction coefficient of betelnut fiber composites lies between 0.4 and 0.75, depending on process parameters. Some researchers have found that bamboo and abaca fiber polymer composites exhibit good wear properties. Prosopis juliflora has the potential for use as a friction composite, as investigated by Reddy et al. (2022).",
+        "page": 3,
+        "score": 0.6288342475891113,
+        "rank": 7
+      },
+      {
+        "chunk_id": "chunk_2",
+        "text": "A confirmatory experiment was conducted at the obtained PSO parameters, and the error was calculated. Additionally, optical and scanning electron microscopy (SEM) were used to analyze the morphologies of the tested samples.摘要 本研究调查了亚麻纤维增强聚合物复合材料 (FRPC) 的最佳摩擦学工艺参数，以最大 限度地提高摩擦系数 (COF)，同时最小化比磨损率 (SWR). 在三种操作条件下，使用销 盘式装置评估了摩擦学特性 负载 (30、40和50 N)、速度 (100、250和400rpm)和滑动 距离 (100、25和400 m). 采用Box-Behnken设计 (BBD)，通过灰色关联分析 (GRA)和粒 子群优化 (PSO)进行优化，使用曲面方法、Box-Behnkey 设计、灰色关联分析、粒子 群优化方差分析 (ANOVA)来解释结果. 结果表明，PSO确定的最佳条件为35.8 N的载 荷、220.3rpm的速度和209.6 m的滑动距离. 方差分析显示，负载对COF和SWR都有显 著影响，更高的负载会导致COF和SW-R的增加. 对COF和SWR进行了单目标粒子群优 化. GRA评估的COF和SWR的最佳权重分别约为51%和49%. 对获得的PSO参数进行了验 证性实验，并计算了误差. 此外，光学和扫描电子显微镜 (SEM)用于分析测试样品的 形态.KEYWORDS Natural fiber composite; coefficient of friction; specific wear rate; response surface methodology; Box Behnken design; grey relational analysis; particle swarm optimization关键词 天然纤维复合材料 ; 摩擦 系数; 特定磨损率; 响应面 法; Box-Behnken设计; 灰色 关联分析; 粒子群优化Introduction Over the past two decades, there has been growing concern for environmental sustainability, which has accelerated the replacement of synthetic fibers with natural fibers owing to their environmentally friendly characteristics. Traditionally, mineral fibers such as asbestos have been utilized in brake pad materials. However, owing to their detrimental effects on both the environment and human health, researchers and industry professionals are actively seeking alternatives to asbestos (Quamar and Sarkar 2024). Natural fiber composites are characterized by a high stiffness-to-weight ratio, biodegradability, and eco-friendliness, rendering them suitable for applications in the automotive, aerospace, defense, and marine sectors (Kumar, Tejyan, and",
+        "page": 2,
+        "score": 0.6196438074111938,
+        "rank": 8
+      }
+    ],
+    "metrics": {
+      "embedding_latency_seconds": 1.1105,
+      "retrieval_latency_seconds": 0.0004,
+      "generation_latency_seconds": 2.0259,
+      "total_latency_seconds": 3.1375,
+      "input_tokens": 2540,
+      "output_tokens": 139,
+      "total_tokens": 2679,
+      "estimated_cost_usd": 0.001238
+    },
+    "evaluation_version": "V1",
+    "timestamp": "2026-09-26T12:51:19.115555"
+  },
+  {
+    "id": "Q07",
+    "question": "How did increasing speed and sliding distance affect the specific wear rate, and what mechanisms were proposed to explain this behavior?",
+    "category": "reasoning",
+    "answer": "Increasing speed and sliding distance initially caused the specific wear rate (SWR) to increase, but subsequently, the SWR decreased. This behavior is attributed to the rapid abrasion of the outermost matrix layer of the composite at high disc speeds, which exposed the flax fiber to direct contact with the rotating disc. The rapid abrasion elevated the interface temperature, influencing the wear characteristics (Page 12 | Chunk chunk_27 and chunk_28).",
+    "sources": [
+      {
+        "chunk_id": "chunk_37",
+        "text": "209 m sliding distance) to get a maximum coefficient of friction of 0.427 and a minimum specific wear rate of 255.5 × 10−5 mm3/Nm simultaneously.● Optical Microscope and Scanning Electron Microscopy were used to analyze the wear surface of the tested composites.Author contributionsAll authors contributed to the study’s conception and design. Material preparation, data collection, and analysis were performed by Rahul Shrivastava and Vishal Parashar. The first draft of the manuscript was written by Rahul Shrivastava, and all authors read and approved the final manuscript.Disclosure statementNo potential conflict of interest was reported by the author(s).16 R. SHRIVASTAVA AND V. PARASHAR",
+        "page": 17,
+        "score": 0.5949082970619202,
+        "rank": 1
+      },
+      {
+        "chunk_id": "chunk_28",
+        "text": "experiments, leading to the softening of the flax fiber and a consequent reduction in the wear rate. Figure 8c shows the relationship between the load and sliding distance on composite wear, showing that increased load and distance result in higher SWR owing to prolonged contact with the rotating disc. To achieve a high COF and low SWR, the optimal process parameters were determined using Particle Swarm Optimization (PSO). Figure 6. a) normal probability vs residuals b) residual- run c) externally studentized vs predicted d) predicted vs actual for SWR of FRPC.JOURNAL OF NATURAL FIBERS 11",
+        "page": 12,
+        "score": 0.5708848834037781,
+        "rank": 2
+      },
+      {
+        "chunk_id": "chunk_27",
+        "text": "Effect of load, speed, and distance on COF and SWR Figures 7 and 8 illustrate the influence of the process parameters on the coefficient of friction (COF) and specific wear rate (SWR) of the developed flax fiber-reinforced polymer composite (FRPC) through three- dimensional and two-dimensional contour plots. Figures 7(a-c) demonstrate that an increase in load, speed, and sliding distance results in a corresponding increase in the COF. Among these factors, the load exerted the most significant impact, as a higher load led to greater contact with the rotating disc. Initially, the matrix layer wears out, causing the flax fiber to come into direct contact with the rotating disc, thereby increasing the COF. In a similar vein, Figure 8a indicates that the SWR increases with the load for reasons analogous to those affecting the COF. However, Figure 8b shows that although the SWR initially increased with increasing speed and sliding distance, it subsequently decreased. This is attributed to the rapid abrasion of the outermost layer (matrix) of the composite at high disc speeds, which exposed the flax fiber to direct contact with the rotating disc. This rapid abrasion elevates the interface temperature, as measured by an infrared thermal gun during the",
+        "page": 12,
+        "score": 0.5531039237976074,
+        "rank": 3
+      },
+      {
+        "chunk_id": "chunk_34",
+        "text": "under high loads resulted in fiber debonding, fiber breakage, and fiber pull-out in the weaker areas of the composites, as shown in Figure 10(e,i). Although ANOVA also indicates that speed and sliding distance are less critical for composite failure, OM and SEM images taken at various speeds (100, 250, and 400rpm) and sliding distances (100, 250, and 400 m) confirm that wear tracks are the primary cause of wear in composites Figure 10. Optical and SEM images of the wear surfaces of the tested samples.JOURNAL OF NATURAL FIBERS 15",
+        "page": 16,
+        "score": 0.552118718624115,
+        "rank": 4
+      },
+      {
+        "chunk_id": "chunk_1",
+        "text": "Optimization of Tribological Process Parameters of Flax Fiber Reinforced Polymer Composites Using Box-Behnken Design and GRA-PSORahul Shrivastava and Vishal Parashar Department of Mechanical Engineering, Maulana Azad National Institute of Technology, Bhopal IndiaABSTRACT This study investigates the optimal tribological process parameters for a flax fiber- reinforced polymer composite (FRPC) to maximize the coefficient of friction (COF) while minimizing the specific wear rate (SWR). The tribological characteristics were evaluated using a pin-on-disc setup under three operational conditions: load (30, 40, and 50 N), speed (100, 250, and 400 rpm), and sliding distance (100, 250, and 400 m). The Box-Behnken Design (BBD) was employed, with optimization performed through Grey Relational Analysis (GRA) and Particle Swarm Optimization (PSO). Analysis of Variance (ANOVA) was used to interpret the results. The results demonstrated that the optimal conditions, as determined by PSO, were a load of 35.8 N, speed of 220.3 rpm, and sliding distance of 209.6 m. The ANOVA revealed that load significantly influenced both the COF and SWR, with higher loads leading to increases in both the COF and SWR. A single- objective PSO was conducted for both COF and SWR. GRA evaluated optimal weights for COF and SWR of approximately 51% and 49%, respectively.",
+        "page": 2,
+        "score": 0.49339035153388977,
+        "rank": 5
+      },
+      {
+        "chunk_id": "chunk_21",
+        "text": "F-value of 2.32, was significant. As speed and distance increased, the rubbing of the composites against the counter disc occurred more, leading to an increase in temperature within the contact area. This resulted in enhanced interlocking and adhesion, thereby increasing the coefficient of friction (COF). The quadratic fitted model demonstrated substantial effects of the quadratic term between the factors, as indicated by the p-value of 0.0409 for distance. This is because the terms which has a p-value under 0.05 are considered significant, whereas exceeding 0.1 suggests that the terms are non-significant.Table 5. ANOVA for the COF.Source Sum of Squares df Mean Square F-value p-value Model 0.2291 9 0.0255 147.91 <0.0001 significant A-Load 0.1984 1 0.1984 1152.82 <0.0001 B-Speed 0.0021 1 0.0021 12.27 0.0100 C-Distance 0.0253 1 0.0253 147.04 <0.0001 AB 0.0000 1 0.0000 0.1452 0.7144 AC 0.0002 1 0.0002 1.31 0.2905 BC 0.0004 1 0.0004 2.32 0.1712 A2 0.0008 1 0.0008 4.46 0.0726 B2 0.0005 1 0.0005 2.96 0.1291 C2 0.0011 1 0.0011 6.26 0.0409 Residual 0.0012 7 0.0002 Lack of Fit 0.0009 3 0.0003 4.40 0.0930 not significant Pure Error 0.0003 4 0.0001 Cor Total 0.2304 168 R. SHRIVASTAVA AND V. PARASHAR",
+        "page": 9,
+        "score": 0.4850470721721649,
+        "rank": 6
+      },
+      {
+        "chunk_id": "chunk_35",
+        "text": "subjected to speed and sliding distance. Figures 10(b,c,k,f,i,j) show the OM and SEM images of the composites concerning changes in speed and distance, respectively. As the speed and distance increased, the rubbing of the composites against the counter surface intensified, and due to friction, heat was generated, resulting in delamination, plastic deformation, and cracks in the matrix of the composites.Conclusions This study optimized the most important factors which has the maximum impact on the COF and SWR of flax fiber-reinforced polymer composites, and developed a regression-fitted model using response surface methodology, and then identified an optimal combination of process parameters to achieve the maximum COF and the minimum SWR. GRA-PSO was used for the optimization process.● The ideal conditions achieved from single objective PSO for the maximum value of COF are a load of 49.1 N, a speed of 392.7 rpm, and 399.3 m sliding distance.● The best results obtained from single objective PSO for the minimum value of SWR are at load 33.1 N, speed 140.4 rpm, and the sliding distance 106.2 m.● ANOVA analysis shows that load is the most significant process parameter for the COF and SWR of flax fiber reinforced polymer composites.● Optical microscopy and SEM",
+        "page": 17,
+        "score": 0.4788559675216675,
+        "rank": 7
+      },
+      {
+        "chunk_id": "chunk_2",
+        "text": "A confirmatory experiment was conducted at the obtained PSO parameters, and the error was calculated. Additionally, optical and scanning electron microscopy (SEM) were used to analyze the morphologies of the tested samples.摘要 本研究调查了亚麻纤维增强聚合物复合材料 (FRPC) 的最佳摩擦学工艺参数，以最大 限度地提高摩擦系数 (COF)，同时最小化比磨损率 (SWR). 在三种操作条件下，使用销 盘式装置评估了摩擦学特性 负载 (30、40和50 N)、速度 (100、250和400rpm)和滑动 距离 (100、25和400 m). 采用Box-Behnken设计 (BBD)，通过灰色关联分析 (GRA)和粒 子群优化 (PSO)进行优化，使用曲面方法、Box-Behnkey 设计、灰色关联分析、粒子 群优化方差分析 (ANOVA)来解释结果. 结果表明，PSO确定的最佳条件为35.8 N的载 荷、220.3rpm的速度和209.6 m的滑动距离. 方差分析显示，负载对COF和SWR都有显 著影响，更高的负载会导致COF和SW-R的增加. 对COF和SWR进行了单目标粒子群优 化. GRA评估的COF和SWR的最佳权重分别约为51%和49%. 对获得的PSO参数进行了验 证性实验，并计算了误差. 此外，光学和扫描电子显微镜 (SEM)用于分析测试样品的 形态.KEYWORDS Natural fiber composite; coefficient of friction; specific wear rate; response surface methodology; Box Behnken design; grey relational analysis; particle swarm optimization关键词 天然纤维复合材料 ; 摩擦 系数; 特定磨损率; 响应面 法; Box-Behnken设计; 灰色 关联分析; 粒子群优化Introduction Over the past two decades, there has been growing concern for environmental sustainability, which has accelerated the replacement of synthetic fibers with natural fibers owing to their environmentally friendly characteristics. Traditionally, mineral fibers such as asbestos have been utilized in brake pad materials. However, owing to their detrimental effects on both the environment and human health, researchers and industry professionals are actively seeking alternatives to asbestos (Quamar and Sarkar 2024). Natural fiber composites are characterized by a high stiffness-to-weight ratio, biodegradability, and eco-friendliness, rendering them suitable for applications in the automotive, aerospace, defense, and marine sectors (Kumar, Tejyan, and",
+        "page": 2,
+        "score": 0.47310101985931396,
+        "rank": 8
+      }
+    ],
+    "metrics": {
+      "embedding_latency_seconds": 1.4167,
+      "retrieval_latency_seconds": 0.0001,
+      "generation_latency_seconds": 2.8774,
+      "total_latency_seconds": 4.2944,
+      "input_tokens": 2443,
+      "output_tokens": 87,
+      "total_tokens": 2530,
+      "estimated_cost_usd": 0.001116
+    },
+    "evaluation_version": "V1",
+    "timestamp": "2026-09-26T12:51:24.765104"
+  },
+  {
+    "id": "Q08",
+    "question": "What wear and failure mechanisms were observed from SEM and optical microscopy, particularly under high-load conditions?",
+    "category": "evidence",
+    "answer": "The wear and failure mechanisms observed from SEM and optical microscopy, particularly under high-load conditions, include fiber debonding, fiber breakage, fiber pull-out, microcracks, matrix delamination, matrix breakage, and delamination, as well as wear tracks. These were identified as the main causes of composite failure under high load (Page 16 | Chunk chunk_34; Page 15 | Chunk chunk_31; Page 17 | Chunk chunk_36).",
+    "sources": [
+      {
+        "chunk_id": "chunk_34",
+        "text": "under high loads resulted in fiber debonding, fiber breakage, and fiber pull-out in the weaker areas of the composites, as shown in Figure 10(e,i). Although ANOVA also indicates that speed and sliding distance are less critical for composite failure, OM and SEM images taken at various speeds (100, 250, and 400rpm) and sliding distances (100, 250, and 400 m) confirm that wear tracks are the primary cause of wear in composites Figure 10. Optical and SEM images of the wear surfaces of the tested samples.JOURNAL OF NATURAL FIBERS 15",
+        "page": 16,
+        "score": 0.6573519706726074,
+        "rank": 1
+      },
+      {
+        "chunk_id": "chunk_37",
+        "text": "209 m sliding distance) to get a maximum coefficient of friction of 0.427 and a minimum specific wear rate of 255.5 × 10−5 mm3/Nm simultaneously.● Optical Microscope and Scanning Electron Microscopy were used to analyze the wear surface of the tested composites.Author contributionsAll authors contributed to the study’s conception and design. Material preparation, data collection, and analysis were performed by Rahul Shrivastava and Vishal Parashar. The first draft of the manuscript was written by Rahul Shrivastava, and all authors read and approved the final manuscript.Disclosure statementNo potential conflict of interest was reported by the author(s).16 R. SHRIVASTAVA AND V. PARASHAR",
+        "page": 17,
+        "score": 0.5301178097724915,
+        "rank": 2
+      },
+      {
+        "chunk_id": "chunk_36",
+        "text": "images show that at high load, the delamination, wear track, and fiber pull-out are the main causes of composite failure.● The GRA assigns a weight of approximately 51% to COF and 49% to SWR, indicating a slightly higher influence of COF in the overall evaluation.● Multi-optimization using GRA-PSO exhibits that at load 35.8 N, speed 220.3 rpm, and 209.6 m sliding distance, the COF is 0.427 and SWR is 255.5 × 10−5 mm 3 /Nm. In conclusion, the findings of this study indicate the considerable potential of flax fiber-reinforced polymer composites for applications necessitating high friction and low wear properties, thereby establishing these materials as promising candidates for future developments in sustainable and high-performance composite technologies.Highlights ● The study uniquely combines Box-Behnken design, Grey Relational Analysis (GRA), and Particle Swarm Optimization (PSO) to systematically investigate and optimize the tribological properties of Flax fiber-reinforced polymer composites.● The ANOVA data shows that load is the most significant factor for the coefficient of friction and Specific wear rate● Grey Relational Analysis assigned weights of approximately 51% and 49% to the coefficient of friction and SWR.● Results indicate that PSO provides the optimum combination of input process parameters (35.8 N load, 220 rpm, and",
+        "page": 17,
+        "score": 0.49918967485427856,
+        "rank": 3
+      },
+      {
+        "chunk_id": "chunk_10",
+        "text": "a total of 17 tests were conducted, according to the Box-Behnken design. Before the experiment, to confirm approximately 0 N load over the pin, the dead weights were balanced on both sides, and also to minimize the experimental uncertainty, an electronic sensor apparatus was used to measure the coefficient of friction and material loss. Before each test, the sensor was recalibrated to ensure the consistency and reliability of the results. Furthermore, the counter surface was meticulously cleaned, and appropriate cooling was applied before each test. The COF was obtained directly from the system, and SWR was calculated by Equation 2 (P et al. 2024). A steel disc with a 60 mm track diameter is used for the wear test. A composite sample is kept fixed, and the disc is rotating against its center at various speeds. The rubbing of the developed composite also generated heat, which increased the temperature of the samples, so the temperature of each specimen after the experiments was measured through an infrared thermal gun. Initially, all the specimens were placed at room temperature. Box Behnken design The Box Behnken Design (BBD) was employed in this study to structure the experimental runs as part of the Response",
+        "page": 5,
+        "score": 0.49589675664901733,
+        "rank": 4
+      },
+      {
+        "chunk_id": "chunk_31",
+        "text": "Confirmation experiments for optimum GRA-PSO parameters The efficacy of the PSO was assessed using a confirmatory test with the same experimental setup. The results of the tests for both single-objective (SO-PSO) and multi-objective (MO-PSO) optimization are presented in Table 10. Table 10 presents the findings of a confirmatory experiment conducted using the process parameters derived from the PSO optimization. The data indicated that the discrepancy between the predicted and actual experimental values was less than 5%, demonstrating that PSO yielded optimal results. Optical microscopy (OM) and SEM of the wear surface of composites The wear surface of the FRPC, as observed after using the pin-on-disc machine, is illustrated in Figure 10. Figures 10(a-f) are the optical microscopy images, and Figure 10(g-i) are SEM images at 50x, 100x, and 200x of the worn samples of developed composites. Figure 10 demonstrates that the primary causes of composite failure are the formation of microcracks, matrix delamination, matrix breakage, fiber pull-out, and fiber fracture. The ANOVA results for COF and SWR, as detailed in Tables 5 and 7, reveal that the normal load exerted the most substantial impact on the surface of the developed composites. In Figure 10(a,g), the OM and SEM images at",
+        "page": 15,
+        "score": 0.4868965744972229,
+        "rank": 5
+      },
+      {
+        "chunk_id": "chunk_2",
+        "text": "A confirmatory experiment was conducted at the obtained PSO parameters, and the error was calculated. Additionally, optical and scanning electron microscopy (SEM) were used to analyze the morphologies of the tested samples.摘要 本研究调查了亚麻纤维增强聚合物复合材料 (FRPC) 的最佳摩擦学工艺参数，以最大 限度地提高摩擦系数 (COF)，同时最小化比磨损率 (SWR). 在三种操作条件下，使用销 盘式装置评估了摩擦学特性 负载 (30、40和50 N)、速度 (100、250和400rpm)和滑动 距离 (100、25和400 m). 采用Box-Behnken设计 (BBD)，通过灰色关联分析 (GRA)和粒 子群优化 (PSO)进行优化，使用曲面方法、Box-Behnkey 设计、灰色关联分析、粒子 群优化方差分析 (ANOVA)来解释结果. 结果表明，PSO确定的最佳条件为35.8 N的载 荷、220.3rpm的速度和209.6 m的滑动距离. 方差分析显示，负载对COF和SWR都有显 著影响，更高的负载会导致COF和SW-R的增加. 对COF和SWR进行了单目标粒子群优 化. GRA评估的COF和SWR的最佳权重分别约为51%和49%. 对获得的PSO参数进行了验 证性实验，并计算了误差. 此外，光学和扫描电子显微镜 (SEM)用于分析测试样品的 形态.KEYWORDS Natural fiber composite; coefficient of friction; specific wear rate; response surface methodology; Box Behnken design; grey relational analysis; particle swarm optimization关键词 天然纤维复合材料 ; 摩擦 系数; 特定磨损率; 响应面 法; Box-Behnken设计; 灰色 关联分析; 粒子群优化Introduction Over the past two decades, there has been growing concern for environmental sustainability, which has accelerated the replacement of synthetic fibers with natural fibers owing to their environmentally friendly characteristics. Traditionally, mineral fibers such as asbestos have been utilized in brake pad materials. However, owing to their detrimental effects on both the environment and human health, researchers and industry professionals are actively seeking alternatives to asbestos (Quamar and Sarkar 2024). Natural fiber composites are characterized by a high stiffness-to-weight ratio, biodegradability, and eco-friendliness, rendering them suitable for applications in the automotive, aerospace, defense, and marine sectors (Kumar, Tejyan, and",
+        "page": 2,
+        "score": 0.48613542318344116,
+        "rank": 6
+      },
+      {
+        "chunk_id": "chunk_28",
+        "text": "experiments, leading to the softening of the flax fiber and a consequent reduction in the wear rate. Figure 8c shows the relationship between the load and sliding distance on composite wear, showing that increased load and distance result in higher SWR owing to prolonged contact with the rotating disc. To achieve a high COF and low SWR, the optimal process parameters were determined using Particle Swarm Optimization (PSO). Figure 6. a) normal probability vs residuals b) residual- run c) externally studentized vs predicted d) predicted vs actual for SWR of FRPC.JOURNAL OF NATURAL FIBERS 11",
+        "page": 12,
+        "score": 0.48013973236083984,
+        "rank": 7
+      },
+      {
+        "chunk_id": "chunk_39",
+        "text": "S. Siengchin. 2024. “Friction and Wear Analysis of Basalt Micro-Filler Loaded Various Epoxies and Esters Based Thermoset Polymer Composites.” Journal of Building Engineering 86:108927. https://doi.org/10.1016/j.jobe.2024.108927 . Jain, S., and V. Parashar. 2023. “WEDM Process Parameters Optimization by Preference-Based CS & PSO Algorithm for LCP.” Materials & Manufacturing Processes 38 (7): 797–815. https://doi.org/10.1080/10426914.2023.2165669 . Kechagias, J., and N. Vidakis. 2022. “Parametric Optimization of Extrusion Material 3D Printing Process: An Assessment of Box Behnken vs Full Factorial Experimental Approach.” International Journal of Advanced Manufacturing Technology 121 (5–6): 3163–3172. https://doi.org/10.1007/s00170-022-09532-2 . Kozasowski, R. M., M. Mackiewicz-Talarczyk, and A. M. Allam. 2012. “Bast Fibres: Flax.” In Handbook of Natural Fibres, Edited by R. M. Kozasowski, 56–113. Woodhead Publishing. https://doi.org/10.1533/9780857095503.1.56 . Kumar, H., S. Tejyan, and M. Kannan. 2024. “Optimization of Abrasive Wear Parameters and Thermo-Mechanical Properties of Bauhinia Vahlii and Grewia Optiva Fiber Reinforced Hybrid Polymer Composites.” Journal of Engineering Research. https://doi.org/10.1016/j.jer.2024.11.009 . Mohana Krishnudu, D., P. Venkateshwar Reddy, D. Sreeramulu, and R. V. Saikumar Reddy. 2023. “Effect of Fiber Content and Wear Parameters on Abrasive Wear Behaviour of Abutilon Indicum Fiber Reinforced Epoxy Composites and Its Prediction Using ANFIS.” Hybrid Advances 3:100040. https://doi.org/10.1016/j.hybadv.2023. 100040 . Mohanty, S., A. Mishra, B. K. Nanda, and",
+        "page": 18,
+        "score": 0.47213903069496155,
+        "rank": 8
+      }
+    ],
+    "metrics": {
+      "embedding_latency_seconds": 0.4828,
+      "retrieval_latency_seconds": 0.0003,
+      "generation_latency_seconds": 1.6515,
+      "total_latency_seconds": 2.135,
+      "input_tokens": 2481,
+      "output_tokens": 95,
+      "total_tokens": 2576,
+      "estimated_cost_usd": 0.001144
+    },
+    "evaluation_version": "V1",
+    "timestamp": "2026-09-26T12:51:26.990998"
+  }
+]

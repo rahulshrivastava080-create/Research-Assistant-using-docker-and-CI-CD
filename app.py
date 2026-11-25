@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 import os
+import time
 
 from rag import (
     SimpleRAG,
@@ -49,7 +50,9 @@ def startup_event():
 # =========================
 @app.get("/")
 def root():
-    return {"message": "RAG API Running"}
+    return {
+        "message": "RAG API Running"
+    }
 
 
 # =========================
@@ -60,22 +63,88 @@ class Query(BaseModel):
 
 
 # =========================
-# ASK ENDPOINT (SAFE)
+# ASK ENDPOINT
 # =========================
 @app.post("/ask")
 def ask(query: Query):
 
     if rag.index is None:
-        return {"error": "Index not ready. Please upload PDF and reload."}
+        return {
+            "error": "Index not ready. Please upload PDF and reload."
+        }
 
-    relevant_chunks = rag.search(query.question)
+    # ---------------------------------
+    # Total request timer
+    # ---------------------------------
+    total_start = time.perf_counter()
 
-    answer = generate_answer(relevant_chunks, query.question)
+    # ---------------------------------
+    # Retrieval
+    # ---------------------------------
+    retrieval_result = rag.search(query.question)
 
+    relevant_chunks = retrieval_result["results"]
+
+    embedding_latency = retrieval_result["embedding_latency"]
+    retrieval_latency = retrieval_result["retrieval_latency"]
+
+    # ---------------------------------
+    # Generation
+    # ---------------------------------
+    generation_result = generate_answer(
+        relevant_chunks,
+        query.question
+    )
+
+    answer = generation_result["answer"]
+
+    generation_latency = generation_result["generation_latency"]
+    input_tokens = generation_result["input_tokens"]
+    output_tokens = generation_result["output_tokens"]
+    estimated_cost = generation_result["estimated_cost"]
+
+    # ---------------------------------
+    # Total latency
+    # ---------------------------------
+    total_latency = time.perf_counter() - total_start
+
+    # ---------------------------------
+    # Return complete observability data
+    # ---------------------------------
     return {
         "question": query.question,
+
         "answer": answer,
-        "sources": relevant_chunks
+
+        "sources": relevant_chunks,
+
+        "metrics": {
+            "embedding_latency_seconds": round(
+                embedding_latency, 4
+            ),
+
+            "retrieval_latency_seconds": round(
+                retrieval_latency, 4
+            ),
+
+            "generation_latency_seconds": round(
+                generation_latency, 4
+            ),
+
+            "total_latency_seconds": round(
+                total_latency, 4
+            ),
+
+            "input_tokens": input_tokens,
+
+            "output_tokens": output_tokens,
+
+            "total_tokens": input_tokens + output_tokens,
+
+            "estimated_cost_usd": round(
+                estimated_cost, 6
+            )
+        }
     }
 
 
@@ -88,10 +157,14 @@ def reload_rag():
     pdf_path = "data/paper.pdf"
 
     if not os.path.exists(pdf_path):
-        return {"error": "PDF not found"}
+        return {
+            "error": "PDF not found"
+        }
 
     if os.path.getsize(pdf_path) == 0:
-        return {"error": "PDF is empty"}
+        return {
+            "error": "PDF is empty"
+        }
 
     pages = load_pdf_text(pdf_path)
     chunks = chunk_text(pages)
@@ -99,5 +172,6 @@ def reload_rag():
     rag.build_index(chunks)
 
     return {
-        "message": "RAG rebuilt successfully"
+        "message": "RAG rebuilt successfully",
+        "chunks": len(chunks)
     }

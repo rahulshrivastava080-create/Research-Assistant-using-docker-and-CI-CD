@@ -1,0 +1,330 @@
+[
+  {
+    "id": "Q01",
+    "question": "What were the three process parameters used in the Box-Behnken design, and what were their low, medium, and high levels?",
+    "category": "factual",
+    "answer": "The three process parameters used in the Box-Behnken design were:\n\n1. Load: low level 30 N, medium level 40 N, high level 50 N  \n2. Speed: low level 100 rpm, medium level 250 rpm, high level 400 rpm  \n3. Sliding distance: low level 100 m, medium level 250 m, high level 400 m  \n\n(Page 1 | Chunk chunk_0 and chunk_1)",
+    "sources": [
+      {
+        "chunk_id": "chunk_0",
+        "text": "Optimization of Tribological Process Parameters of Flax Fiber Reinforced Polymer Composites Using Box-Behnken Design and GRA-PSORahul Shrivastava and Vishal Parashar Department of Mechanical Engineering, Maulana Azad National Institute of Technology, Bhopal IndiaABSTRACT This study investigates the optimal tribological process parameters for a flax fiber- reinforced polymer composite (FRPC) to maximize the coefficient of friction (COF) while minimizing the specific wear rate (SWR). The tribological characteristics were evaluated using a pin-on-disc setup under three operational conditions: load (30, 40, and 50 N), speed (100, 250, and 400 rpm), and sliding distance (100, 250, and 400 m). The Box-Behnken Design (BBD) was employed, with optimization performed through Grey Relational Analysis (GRA) and Particle Swarm Optimization (PSO). Analysis of Variance (ANOVA) was used to interpret the results. The results demonstrated that the optimal conditions, as determined by PSO, were a load of 35.8 N, speed of 220.3 rpm, and sliding distance of 209.6 m. The ANOVA revealed that load significantly influenced both the COF and SWR, with higher loads leading to increases in both the COF and SWR. A single- objective PSO was conducted for both COF and SWR. GRA evaluated optimal weights for COF and SWR of approximately 51% and 49%, respectively.",
+        "page": 1,
+        "score": 0.4195305109024048,
+        "rank": 1
+      },
+      {
+        "chunk_id": "chunk_1",
+        "text": "A confirmatory experiment was conducted at the obtained PSO parameters, and the error was calculated. Additionally, optical and scanning electron microscopy (SEM) were used to analyze the morphologies of the tested samples.摘要 本研究调查了亚麻纤维增强聚合物复合材料 (FRPC) 的最佳摩擦学工艺参数，以最大 限度地提高摩擦系数 (COF)，同时最小化比磨损率 (SWR). 在三种操作条件下，使用销 盘式装置评估了摩擦学特性 负载 (30、40和50 N)、速度 (100、250和400rpm)和滑动 距离 (100、25和400 m). 采用Box-Behnken设计 (BBD)，通过灰色关联分析 (GRA)和粒 子群优化 (PSO)进行优化，使用曲面方法、Box-Behnkey 设计、灰色关联分析、粒子 群优化方差分析 (ANOVA)来解释结果. 结果表明，PSO确定的最佳条件为35.8 N的载 荷、220.3rpm的速度和209.6 m的滑动距离. 方差分析显示，负载对COF和SWR都有显 著影响，更高的负载会导致COF和SW-R的增加. 对COF和SWR进行了单目标粒子群优 化. GRA评估的COF和SWR的最佳权重分别约为51%和49%. 对获得的PSO参数进行了验 证性实验，并计算了误差. 此外，光学和扫描电子显微镜 (SEM)用于分析测试样品的 形态.KEYWORDS Natural fiber composite; coefficient of friction; specific wear rate; response surface methodology; Box Behnken design; grey relational analysis; particle swarm optimization关键词 天然纤维复合材料 ; 摩擦 系数; 特定磨损率; 响应面 法; Box-Behnken设计; 灰色 关联分析; 粒子群优化Introduction Over the past two decades, there has been growing concern for environmental sustainability, which has accelerated the replacement of synthetic fibers with natural fibers owing to their environmentally friendly characteristics. Traditionally, mineral fibers such as asbestos have been utilized in brake pad materials. However, owing to their detrimental effects on both the environment and human health, researchers and industry professionals are actively seeking alternatives to asbestos (Quamar and Sarkar 2024). Natural fiber composites are characterized by a high stiffness-to-weight ratio, biodegradability, and eco-friendliness, rendering them suitable for applications in the automotive, aerospace, defense, and marine sectors (Kumar, Tejyan, and",
+        "page": 1,
+        "score": 0.2906431555747986,
+        "rank": 2
+      },
+      {
+        "chunk_id": "chunk_2",
+        "text": "Kannan 2024). Additionally, the increased attention on natural fiber composites among researchers is attributed to their abundant natural availability, ease of fabrication, low cost, high strength, and reduced carbon emissions (Kumar, Tejyan, and Kannan 2024; Singh et al. 2019). The primary criteria CONTACT Rahul Shrivastava rahulshrivastava080@gmail.com Department of Mechanical Engineering, Maulana Azad National Institute of Technology (MANIT), Link Road Number 3, Bhopal, Madhya Pradesh 462003, India Supplemental data for this article can be accessed online at https://doi.org/10.1080/15440478.2025.2570088JOURNAL OF NATURAL FIBERS 2025, VOL. 22, NO. 1, 2570088 https://doi.org/10.1080/15440478.2025.2570088 © 2025 The Author(s). Published with license by Taylor & Francis Group, LLC. This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. The terms on which this article has been published allow the posting of the Accepted Manuscript in a repository by the author(s) or with their consent.",
+        "page": 1,
+        "score": 0.18622073531150818,
+        "rank": 3
+      }
+    ],
+    "metrics": {
+      "embedding_latency_seconds": 8.1716,
+      "retrieval_latency_seconds": 0.1336,
+      "generation_latency_seconds": 2.1946,
+      "total_latency_seconds": 10.8005,
+      "input_tokens": 1307,
+      "output_tokens": 94,
+      "total_tokens": 1401,
+      "estimated_cost_usd": 0.000673
+    },
+    "evaluation_version": "V1",
+    "timestamp": "2026-09-26T02:33:24.489251"
+  },
+  {
+    "id": "Q02",
+    "question": "Which process parameter had the greatest influence on both coefficient of friction (COF) and specific wear rate (SWR) according to the ANOVA results, and what were its F-values for COF and SWR?",
+    "category": "numerical",
+    "answer": "According to the ANOVA results, the load had the greatest influence on both the coefficient of friction (COF) and specific wear rate (SWR). However, the exact F-values for COF and SWR are not provided in the given context. (Page 1 | Chunk chunk_0)",
+    "sources": [
+      {
+        "chunk_id": "chunk_0",
+        "text": "Optimization of Tribological Process Parameters of Flax Fiber Reinforced Polymer Composites Using Box-Behnken Design and GRA-PSORahul Shrivastava and Vishal Parashar Department of Mechanical Engineering, Maulana Azad National Institute of Technology, Bhopal IndiaABSTRACT This study investigates the optimal tribological process parameters for a flax fiber- reinforced polymer composite (FRPC) to maximize the coefficient of friction (COF) while minimizing the specific wear rate (SWR). The tribological characteristics were evaluated using a pin-on-disc setup under three operational conditions: load (30, 40, and 50 N), speed (100, 250, and 400 rpm), and sliding distance (100, 250, and 400 m). The Box-Behnken Design (BBD) was employed, with optimization performed through Grey Relational Analysis (GRA) and Particle Swarm Optimization (PSO). Analysis of Variance (ANOVA) was used to interpret the results. The results demonstrated that the optimal conditions, as determined by PSO, were a load of 35.8 N, speed of 220.3 rpm, and sliding distance of 209.6 m. The ANOVA revealed that load significantly influenced both the COF and SWR, with higher loads leading to increases in both the COF and SWR. A single- objective PSO was conducted for both COF and SWR. GRA evaluated optimal weights for COF and SWR of approximately 51% and 49%, respectively.",
+        "page": 1,
+        "score": 0.6546121835708618,
+        "rank": 1
+      },
+      {
+        "chunk_id": "chunk_1",
+        "text": "A confirmatory experiment was conducted at the obtained PSO parameters, and the error was calculated. Additionally, optical and scanning electron microscopy (SEM) were used to analyze the morphologies of the tested samples.摘要 本研究调查了亚麻纤维增强聚合物复合材料 (FRPC) 的最佳摩擦学工艺参数，以最大 限度地提高摩擦系数 (COF)，同时最小化比磨损率 (SWR). 在三种操作条件下，使用销 盘式装置评估了摩擦学特性 负载 (30、40和50 N)、速度 (100、250和400rpm)和滑动 距离 (100、25和400 m). 采用Box-Behnken设计 (BBD)，通过灰色关联分析 (GRA)和粒 子群优化 (PSO)进行优化，使用曲面方法、Box-Behnkey 设计、灰色关联分析、粒子 群优化方差分析 (ANOVA)来解释结果. 结果表明，PSO确定的最佳条件为35.8 N的载 荷、220.3rpm的速度和209.6 m的滑动距离. 方差分析显示，负载对COF和SWR都有显 著影响，更高的负载会导致COF和SW-R的增加. 对COF和SWR进行了单目标粒子群优 化. GRA评估的COF和SWR的最佳权重分别约为51%和49%. 对获得的PSO参数进行了验 证性实验，并计算了误差. 此外，光学和扫描电子显微镜 (SEM)用于分析测试样品的 形态.KEYWORDS Natural fiber composite; coefficient of friction; specific wear rate; response surface methodology; Box Behnken design; grey relational analysis; particle swarm optimization关键词 天然纤维复合材料 ; 摩擦 系数; 特定磨损率; 响应面 法; Box-Behnken设计; 灰色 关联分析; 粒子群优化Introduction Over the past two decades, there has been growing concern for environmental sustainability, which has accelerated the replacement of synthetic fibers with natural fibers owing to their environmentally friendly characteristics. Traditionally, mineral fibers such as asbestos have been utilized in brake pad materials. However, owing to their detrimental effects on both the environment and human health, researchers and industry professionals are actively seeking alternatives to asbestos (Quamar and Sarkar 2024). Natural fiber composites are characterized by a high stiffness-to-weight ratio, biodegradability, and eco-friendliness, rendering them suitable for applications in the automotive, aerospace, defense, and marine sectors (Kumar, Tejyan, and",
+        "page": 1,
+        "score": 0.5659044981002808,
+        "rank": 2
+      },
+      {
+        "chunk_id": "chunk_2",
+        "text": "Kannan 2024). Additionally, the increased attention on natural fiber composites among researchers is attributed to their abundant natural availability, ease of fabrication, low cost, high strength, and reduced carbon emissions (Kumar, Tejyan, and Kannan 2024; Singh et al. 2019). The primary criteria CONTACT Rahul Shrivastava rahulshrivastava080@gmail.com Department of Mechanical Engineering, Maulana Azad National Institute of Technology (MANIT), Link Road Number 3, Bhopal, Madhya Pradesh 462003, India Supplemental data for this article can be accessed online at https://doi.org/10.1080/15440478.2025.2570088JOURNAL OF NATURAL FIBERS 2025, VOL. 22, NO. 1, 2570088 https://doi.org/10.1080/15440478.2025.2570088 © 2025 The Author(s). Published with license by Taylor & Francis Group, LLC. This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. The terms on which this article has been published allow the posting of the Accepted Manuscript in a repository by the author(s) or with their consent.",
+        "page": 1,
+        "score": 0.310824453830719,
+        "rank": 3
+      }
+    ],
+    "metrics": {
+      "embedding_latency_seconds": 1.4301,
+      "retrieval_latency_seconds": 0.0002,
+      "generation_latency_seconds": 1.5272,
+      "total_latency_seconds": 2.9581,
+      "input_tokens": 1324,
+      "output_tokens": 61,
+      "total_tokens": 1385,
+      "estimated_cost_usd": 0.000627
+    },
+    "evaluation_version": "V1",
+    "timestamp": "2026-09-26T02:33:27.543396"
+  },
+  {
+    "id": "Q03",
+    "question": "What were the R², adjusted R², and predicted R² values for the coefficient of friction (COF) model?",
+    "category": "numerical",
+    "answer": "Answer not found in document. (Page 1)",
+    "sources": [
+      {
+        "chunk_id": "chunk_0",
+        "text": "Optimization of Tribological Process Parameters of Flax Fiber Reinforced Polymer Composites Using Box-Behnken Design and GRA-PSORahul Shrivastava and Vishal Parashar Department of Mechanical Engineering, Maulana Azad National Institute of Technology, Bhopal IndiaABSTRACT This study investigates the optimal tribological process parameters for a flax fiber- reinforced polymer composite (FRPC) to maximize the coefficient of friction (COF) while minimizing the specific wear rate (SWR). The tribological characteristics were evaluated using a pin-on-disc setup under three operational conditions: load (30, 40, and 50 N), speed (100, 250, and 400 rpm), and sliding distance (100, 250, and 400 m). The Box-Behnken Design (BBD) was employed, with optimization performed through Grey Relational Analysis (GRA) and Particle Swarm Optimization (PSO). Analysis of Variance (ANOVA) was used to interpret the results. The results demonstrated that the optimal conditions, as determined by PSO, were a load of 35.8 N, speed of 220.3 rpm, and sliding distance of 209.6 m. The ANOVA revealed that load significantly influenced both the COF and SWR, with higher loads leading to increases in both the COF and SWR. A single- objective PSO was conducted for both COF and SWR. GRA evaluated optimal weights for COF and SWR of approximately 51% and 49%, respectively.",
+        "page": 1,
+        "score": 0.4416508972644806,
+        "rank": 1
+      },
+      {
+        "chunk_id": "chunk_1",
+        "text": "A confirmatory experiment was conducted at the obtained PSO parameters, and the error was calculated. Additionally, optical and scanning electron microscopy (SEM) were used to analyze the morphologies of the tested samples.摘要 本研究调查了亚麻纤维增强聚合物复合材料 (FRPC) 的最佳摩擦学工艺参数，以最大 限度地提高摩擦系数 (COF)，同时最小化比磨损率 (SWR). 在三种操作条件下，使用销 盘式装置评估了摩擦学特性 负载 (30、40和50 N)、速度 (100、250和400rpm)和滑动 距离 (100、25和400 m). 采用Box-Behnken设计 (BBD)，通过灰色关联分析 (GRA)和粒 子群优化 (PSO)进行优化，使用曲面方法、Box-Behnkey 设计、灰色关联分析、粒子 群优化方差分析 (ANOVA)来解释结果. 结果表明，PSO确定的最佳条件为35.8 N的载 荷、220.3rpm的速度和209.6 m的滑动距离. 方差分析显示，负载对COF和SWR都有显 著影响，更高的负载会导致COF和SW-R的增加. 对COF和SWR进行了单目标粒子群优 化. GRA评估的COF和SWR的最佳权重分别约为51%和49%. 对获得的PSO参数进行了验 证性实验，并计算了误差. 此外，光学和扫描电子显微镜 (SEM)用于分析测试样品的 形态.KEYWORDS Natural fiber composite; coefficient of friction; specific wear rate; response surface methodology; Box Behnken design; grey relational analysis; particle swarm optimization关键词 天然纤维复合材料 ; 摩擦 系数; 特定磨损率; 响应面 法; Box-Behnken设计; 灰色 关联分析; 粒子群优化Introduction Over the past two decades, there has been growing concern for environmental sustainability, which has accelerated the replacement of synthetic fibers with natural fibers owing to their environmentally friendly characteristics. Traditionally, mineral fibers such as asbestos have been utilized in brake pad materials. However, owing to their detrimental effects on both the environment and human health, researchers and industry professionals are actively seeking alternatives to asbestos (Quamar and Sarkar 2024). Natural fiber composites are characterized by a high stiffness-to-weight ratio, biodegradability, and eco-friendliness, rendering them suitable for applications in the automotive, aerospace, defense, and marine sectors (Kumar, Tejyan, and",
+        "page": 1,
+        "score": 0.4082106947898865,
+        "rank": 2
+      },
+      {
+        "chunk_id": "chunk_2",
+        "text": "Kannan 2024). Additionally, the increased attention on natural fiber composites among researchers is attributed to their abundant natural availability, ease of fabrication, low cost, high strength, and reduced carbon emissions (Kumar, Tejyan, and Kannan 2024; Singh et al. 2019). The primary criteria CONTACT Rahul Shrivastava rahulshrivastava080@gmail.com Department of Mechanical Engineering, Maulana Azad National Institute of Technology (MANIT), Link Road Number 3, Bhopal, Madhya Pradesh 462003, India Supplemental data for this article can be accessed online at https://doi.org/10.1080/15440478.2025.2570088JOURNAL OF NATURAL FIBERS 2025, VOL. 22, NO. 1, 2570088 https://doi.org/10.1080/15440478.2025.2570088 © 2025 The Author(s). Published with license by Taylor & Francis Group, LLC. This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. The terms on which this article has been published allow the posting of the Accepted Manuscript in a repository by the author(s) or with their consent.",
+        "page": 1,
+        "score": 0.22120992839336395,
+        "rank": 3
+      }
+    ],
+    "metrics": {
+      "embedding_latency_seconds": 1.3909,
+      "retrieval_latency_seconds": 0.0003,
+      "generation_latency_seconds": 1.7535,
+      "total_latency_seconds": 3.1451,
+      "input_tokens": 1306,
+      "output_tokens": 11,
+      "total_tokens": 1317,
+      "estimated_cost_usd": 0.00054
+    },
+    "evaluation_version": "V1",
+    "timestamp": "2026-09-26T02:33:30.816394"
+  },
+  {
+    "id": "Q04",
+    "question": "What were the R², adjusted R², and predicted R² values for the specific wear rate (SWR) model?",
+    "category": "numerical",
+    "answer": "Answer not found in document.",
+    "sources": [
+      {
+        "chunk_id": "chunk_0",
+        "text": "Optimization of Tribological Process Parameters of Flax Fiber Reinforced Polymer Composites Using Box-Behnken Design and GRA-PSORahul Shrivastava and Vishal Parashar Department of Mechanical Engineering, Maulana Azad National Institute of Technology, Bhopal IndiaABSTRACT This study investigates the optimal tribological process parameters for a flax fiber- reinforced polymer composite (FRPC) to maximize the coefficient of friction (COF) while minimizing the specific wear rate (SWR). The tribological characteristics were evaluated using a pin-on-disc setup under three operational conditions: load (30, 40, and 50 N), speed (100, 250, and 400 rpm), and sliding distance (100, 250, and 400 m). The Box-Behnken Design (BBD) was employed, with optimization performed through Grey Relational Analysis (GRA) and Particle Swarm Optimization (PSO). Analysis of Variance (ANOVA) was used to interpret the results. The results demonstrated that the optimal conditions, as determined by PSO, were a load of 35.8 N, speed of 220.3 rpm, and sliding distance of 209.6 m. The ANOVA revealed that load significantly influenced both the COF and SWR, with higher loads leading to increases in both the COF and SWR. A single- objective PSO was conducted for both COF and SWR. GRA evaluated optimal weights for COF and SWR of approximately 51% and 49%, respectively.",
+        "page": 1,
+        "score": 0.43659353256225586,
+        "rank": 1
+      },
+      {
+        "chunk_id": "chunk_1",
+        "text": "A confirmatory experiment was conducted at the obtained PSO parameters, and the error was calculated. Additionally, optical and scanning electron microscopy (SEM) were used to analyze the morphologies of the tested samples.摘要 本研究调查了亚麻纤维增强聚合物复合材料 (FRPC) 的最佳摩擦学工艺参数，以最大 限度地提高摩擦系数 (COF)，同时最小化比磨损率 (SWR). 在三种操作条件下，使用销 盘式装置评估了摩擦学特性 负载 (30、40和50 N)、速度 (100、250和400rpm)和滑动 距离 (100、25和400 m). 采用Box-Behnken设计 (BBD)，通过灰色关联分析 (GRA)和粒 子群优化 (PSO)进行优化，使用曲面方法、Box-Behnkey 设计、灰色关联分析、粒子 群优化方差分析 (ANOVA)来解释结果. 结果表明，PSO确定的最佳条件为35.8 N的载 荷、220.3rpm的速度和209.6 m的滑动距离. 方差分析显示，负载对COF和SWR都有显 著影响，更高的负载会导致COF和SW-R的增加. 对COF和SWR进行了单目标粒子群优 化. GRA评估的COF和SWR的最佳权重分别约为51%和49%. 对获得的PSO参数进行了验 证性实验，并计算了误差. 此外，光学和扫描电子显微镜 (SEM)用于分析测试样品的 形态.KEYWORDS Natural fiber composite; coefficient of friction; specific wear rate; response surface methodology; Box Behnken design; grey relational analysis; particle swarm optimization关键词 天然纤维复合材料 ; 摩擦 系数; 特定磨损率; 响应面 法; Box-Behnken设计; 灰色 关联分析; 粒子群优化Introduction Over the past two decades, there has been growing concern for environmental sustainability, which has accelerated the replacement of synthetic fibers with natural fibers owing to their environmentally friendly characteristics. Traditionally, mineral fibers such as asbestos have been utilized in brake pad materials. However, owing to their detrimental effects on both the environment and human health, researchers and industry professionals are actively seeking alternatives to asbestos (Quamar and Sarkar 2024). Natural fiber composites are characterized by a high stiffness-to-weight ratio, biodegradability, and eco-friendliness, rendering them suitable for applications in the automotive, aerospace, defense, and marine sectors (Kumar, Tejyan, and",
+        "page": 1,
+        "score": 0.3771657943725586,
+        "rank": 2
+      },
+      {
+        "chunk_id": "chunk_2",
+        "text": "Kannan 2024). Additionally, the increased attention on natural fiber composites among researchers is attributed to their abundant natural availability, ease of fabrication, low cost, high strength, and reduced carbon emissions (Kumar, Tejyan, and Kannan 2024; Singh et al. 2019). The primary criteria CONTACT Rahul Shrivastava rahulshrivastava080@gmail.com Department of Mechanical Engineering, Maulana Azad National Institute of Technology (MANIT), Link Road Number 3, Bhopal, Madhya Pradesh 462003, India Supplemental data for this article can be accessed online at https://doi.org/10.1080/15440478.2025.2570088JOURNAL OF NATURAL FIBERS 2025, VOL. 22, NO. 1, 2570088 https://doi.org/10.1080/15440478.2025.2570088 © 2025 The Author(s). Published with license by Taylor & Francis Group, LLC. This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. The terms on which this article has been published allow the posting of the Accepted Manuscript in a repository by the author(s) or with their consent.",
+        "page": 1,
+        "score": 0.21054670214653015,
+        "rank": 3
+      }
+    ],
+    "metrics": {
+      "embedding_latency_seconds": 0.4896,
+      "retrieval_latency_seconds": 0.0002,
+      "generation_latency_seconds": 1.4757,
+      "total_latency_seconds": 1.966,
+      "input_tokens": 1306,
+      "output_tokens": 6,
+      "total_tokens": 1312,
+      "estimated_cost_usd": 0.000532
+    },
+    "evaluation_version": "V1",
+    "timestamp": "2026-09-26T02:33:33.787640"
+  },
+  {
+    "id": "Q05",
+    "question": "What were the multi-objective PSO optimum process parameters, and what were the predicted and experimentally obtained COF and SWR values?",
+    "category": "numerical",
+    "answer": "The multi-objective PSO optimum process parameters were a load of 35.8 N, speed of 220.3 rpm, and sliding distance of 209.6 m. The study used GRA to evaluate optimal weights for COF and SWR of approximately 51% and 49%, respectively. A confirmatory experiment was conducted at these PSO parameters, and the error was calculated, but the exact predicted and experimentally obtained COF and SWR values are not provided in the context. (Page 1 | Chunk chunk_0 and chunk_1)  \n\nAnswer not found in document.",
+    "sources": [
+      {
+        "chunk_id": "chunk_0",
+        "text": "Optimization of Tribological Process Parameters of Flax Fiber Reinforced Polymer Composites Using Box-Behnken Design and GRA-PSORahul Shrivastava and Vishal Parashar Department of Mechanical Engineering, Maulana Azad National Institute of Technology, Bhopal IndiaABSTRACT This study investigates the optimal tribological process parameters for a flax fiber- reinforced polymer composite (FRPC) to maximize the coefficient of friction (COF) while minimizing the specific wear rate (SWR). The tribological characteristics were evaluated using a pin-on-disc setup under three operational conditions: load (30, 40, and 50 N), speed (100, 250, and 400 rpm), and sliding distance (100, 250, and 400 m). The Box-Behnken Design (BBD) was employed, with optimization performed through Grey Relational Analysis (GRA) and Particle Swarm Optimization (PSO). Analysis of Variance (ANOVA) was used to interpret the results. The results demonstrated that the optimal conditions, as determined by PSO, were a load of 35.8 N, speed of 220.3 rpm, and sliding distance of 209.6 m. The ANOVA revealed that load significantly influenced both the COF and SWR, with higher loads leading to increases in both the COF and SWR. A single- objective PSO was conducted for both COF and SWR. GRA evaluated optimal weights for COF and SWR of approximately 51% and 49%, respectively.",
+        "page": 1,
+        "score": 0.5756951570510864,
+        "rank": 1
+      },
+      {
+        "chunk_id": "chunk_1",
+        "text": "A confirmatory experiment was conducted at the obtained PSO parameters, and the error was calculated. Additionally, optical and scanning electron microscopy (SEM) were used to analyze the morphologies of the tested samples.摘要 本研究调查了亚麻纤维增强聚合物复合材料 (FRPC) 的最佳摩擦学工艺参数，以最大 限度地提高摩擦系数 (COF)，同时最小化比磨损率 (SWR). 在三种操作条件下，使用销 盘式装置评估了摩擦学特性 负载 (30、40和50 N)、速度 (100、250和400rpm)和滑动 距离 (100、25和400 m). 采用Box-Behnken设计 (BBD)，通过灰色关联分析 (GRA)和粒 子群优化 (PSO)进行优化，使用曲面方法、Box-Behnkey 设计、灰色关联分析、粒子 群优化方差分析 (ANOVA)来解释结果. 结果表明，PSO确定的最佳条件为35.8 N的载 荷、220.3rpm的速度和209.6 m的滑动距离. 方差分析显示，负载对COF和SWR都有显 著影响，更高的负载会导致COF和SW-R的增加. 对COF和SWR进行了单目标粒子群优 化. GRA评估的COF和SWR的最佳权重分别约为51%和49%. 对获得的PSO参数进行了验 证性实验，并计算了误差. 此外，光学和扫描电子显微镜 (SEM)用于分析测试样品的 形态.KEYWORDS Natural fiber composite; coefficient of friction; specific wear rate; response surface methodology; Box Behnken design; grey relational analysis; particle swarm optimization关键词 天然纤维复合材料 ; 摩擦 系数; 特定磨损率; 响应面 法; Box-Behnken设计; 灰色 关联分析; 粒子群优化Introduction Over the past two decades, there has been growing concern for environmental sustainability, which has accelerated the replacement of synthetic fibers with natural fibers owing to their environmentally friendly characteristics. Traditionally, mineral fibers such as asbestos have been utilized in brake pad materials. However, owing to their detrimental effects on both the environment and human health, researchers and industry professionals are actively seeking alternatives to asbestos (Quamar and Sarkar 2024). Natural fiber composites are characterized by a high stiffness-to-weight ratio, biodegradability, and eco-friendliness, rendering them suitable for applications in the automotive, aerospace, defense, and marine sectors (Kumar, Tejyan, and",
+        "page": 1,
+        "score": 0.5247026085853577,
+        "rank": 2
+      },
+      {
+        "chunk_id": "chunk_2",
+        "text": "Kannan 2024). Additionally, the increased attention on natural fiber composites among researchers is attributed to their abundant natural availability, ease of fabrication, low cost, high strength, and reduced carbon emissions (Kumar, Tejyan, and Kannan 2024; Singh et al. 2019). The primary criteria CONTACT Rahul Shrivastava rahulshrivastava080@gmail.com Department of Mechanical Engineering, Maulana Azad National Institute of Technology (MANIT), Link Road Number 3, Bhopal, Madhya Pradesh 462003, India Supplemental data for this article can be accessed online at https://doi.org/10.1080/15440478.2025.2570088JOURNAL OF NATURAL FIBERS 2025, VOL. 22, NO. 1, 2570088 https://doi.org/10.1080/15440478.2025.2570088 © 2025 The Author(s). Published with license by Taylor & Francis Group, LLC. This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. The terms on which this article has been published allow the posting of the Accepted Manuscript in a repository by the author(s) or with their consent.",
+        "page": 1,
+        "score": 0.22330087423324585,
+        "rank": 3
+      }
+    ],
+    "metrics": {
+      "embedding_latency_seconds": 0.8807,
+      "retrieval_latency_seconds": 0.0015,
+      "generation_latency_seconds": 2.3848,
+      "total_latency_seconds": 3.2677,
+      "input_tokens": 1307,
+      "output_tokens": 122,
+      "total_tokens": 1429,
+      "estimated_cost_usd": 0.000718
+    },
+    "evaluation_version": "V1",
+    "timestamp": "2026-09-26T02:33:37.092810"
+  },
+  {
+    "id": "Q06",
+    "question": "Why does increasing the applied load generally increase both the coefficient of friction and specific wear rate of the flax fiber reinforced polymer composite?",
+    "category": "reasoning",
+    "answer": "Answer not found in document. (Page 1)",
+    "sources": [
+      {
+        "chunk_id": "chunk_0",
+        "text": "Optimization of Tribological Process Parameters of Flax Fiber Reinforced Polymer Composites Using Box-Behnken Design and GRA-PSORahul Shrivastava and Vishal Parashar Department of Mechanical Engineering, Maulana Azad National Institute of Technology, Bhopal IndiaABSTRACT This study investigates the optimal tribological process parameters for a flax fiber- reinforced polymer composite (FRPC) to maximize the coefficient of friction (COF) while minimizing the specific wear rate (SWR). The tribological characteristics were evaluated using a pin-on-disc setup under three operational conditions: load (30, 40, and 50 N), speed (100, 250, and 400 rpm), and sliding distance (100, 250, and 400 m). The Box-Behnken Design (BBD) was employed, with optimization performed through Grey Relational Analysis (GRA) and Particle Swarm Optimization (PSO). Analysis of Variance (ANOVA) was used to interpret the results. The results demonstrated that the optimal conditions, as determined by PSO, were a load of 35.8 N, speed of 220.3 rpm, and sliding distance of 209.6 m. The ANOVA revealed that load significantly influenced both the COF and SWR, with higher loads leading to increases in both the COF and SWR. A single- objective PSO was conducted for both COF and SWR. GRA evaluated optimal weights for COF and SWR of approximately 51% and 49%, respectively.",
+        "page": 1,
+        "score": 0.6445250511169434,
+        "rank": 1
+      },
+      {
+        "chunk_id": "chunk_1",
+        "text": "A confirmatory experiment was conducted at the obtained PSO parameters, and the error was calculated. Additionally, optical and scanning electron microscopy (SEM) were used to analyze the morphologies of the tested samples.摘要 本研究调查了亚麻纤维增强聚合物复合材料 (FRPC) 的最佳摩擦学工艺参数，以最大 限度地提高摩擦系数 (COF)，同时最小化比磨损率 (SWR). 在三种操作条件下，使用销 盘式装置评估了摩擦学特性 负载 (30、40和50 N)、速度 (100、250和400rpm)和滑动 距离 (100、25和400 m). 采用Box-Behnken设计 (BBD)，通过灰色关联分析 (GRA)和粒 子群优化 (PSO)进行优化，使用曲面方法、Box-Behnkey 设计、灰色关联分析、粒子 群优化方差分析 (ANOVA)来解释结果. 结果表明，PSO确定的最佳条件为35.8 N的载 荷、220.3rpm的速度和209.6 m的滑动距离. 方差分析显示，负载对COF和SWR都有显 著影响，更高的负载会导致COF和SW-R的增加. 对COF和SWR进行了单目标粒子群优 化. GRA评估的COF和SWR的最佳权重分别约为51%和49%. 对获得的PSO参数进行了验 证性实验，并计算了误差. 此外，光学和扫描电子显微镜 (SEM)用于分析测试样品的 形态.KEYWORDS Natural fiber composite; coefficient of friction; specific wear rate; response surface methodology; Box Behnken design; grey relational analysis; particle swarm optimization关键词 天然纤维复合材料 ; 摩擦 系数; 特定磨损率; 响应面 法; Box-Behnken设计; 灰色 关联分析; 粒子群优化Introduction Over the past two decades, there has been growing concern for environmental sustainability, which has accelerated the replacement of synthetic fibers with natural fibers owing to their environmentally friendly characteristics. Traditionally, mineral fibers such as asbestos have been utilized in brake pad materials. However, owing to their detrimental effects on both the environment and human health, researchers and industry professionals are actively seeking alternatives to asbestos (Quamar and Sarkar 2024). Natural fiber composites are characterized by a high stiffness-to-weight ratio, biodegradability, and eco-friendliness, rendering them suitable for applications in the automotive, aerospace, defense, and marine sectors (Kumar, Tejyan, and",
+        "page": 1,
+        "score": 0.6196438074111938,
+        "rank": 2
+      },
+      {
+        "chunk_id": "chunk_2",
+        "text": "Kannan 2024). Additionally, the increased attention on natural fiber composites among researchers is attributed to their abundant natural availability, ease of fabrication, low cost, high strength, and reduced carbon emissions (Kumar, Tejyan, and Kannan 2024; Singh et al. 2019). The primary criteria CONTACT Rahul Shrivastava rahulshrivastava080@gmail.com Department of Mechanical Engineering, Maulana Azad National Institute of Technology (MANIT), Link Road Number 3, Bhopal, Madhya Pradesh 462003, India Supplemental data for this article can be accessed online at https://doi.org/10.1080/15440478.2025.2570088JOURNAL OF NATURAL FIBERS 2025, VOL. 22, NO. 1, 2570088 https://doi.org/10.1080/15440478.2025.2570088 © 2025 The Author(s). Published with license by Taylor & Francis Group, LLC. This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. The terms on which this article has been published allow the posting of the Accepted Manuscript in a repository by the author(s) or with their consent.",
+        "page": 1,
+        "score": 0.4527970552444458,
+        "rank": 3
+      }
+    ],
+    "metrics": {
+      "embedding_latency_seconds": 0.5158,
+      "retrieval_latency_seconds": 0.0002,
+      "generation_latency_seconds": 1.1716,
+      "total_latency_seconds": 1.6884,
+      "input_tokens": 1305,
+      "output_tokens": 11,
+      "total_tokens": 1316,
+      "estimated_cost_usd": 0.00054
+    },
+    "evaluation_version": "V1",
+    "timestamp": "2026-09-26T02:33:39.267393"
+  },
+  {
+    "id": "Q07",
+    "question": "How did increasing speed and sliding distance affect the specific wear rate, and what mechanisms were proposed to explain this behavior?",
+    "category": "reasoning",
+    "answer": "Answer not found in document. (Page 1)",
+    "sources": [
+      {
+        "chunk_id": "chunk_0",
+        "text": "Optimization of Tribological Process Parameters of Flax Fiber Reinforced Polymer Composites Using Box-Behnken Design and GRA-PSORahul Shrivastava and Vishal Parashar Department of Mechanical Engineering, Maulana Azad National Institute of Technology, Bhopal IndiaABSTRACT This study investigates the optimal tribological process parameters for a flax fiber- reinforced polymer composite (FRPC) to maximize the coefficient of friction (COF) while minimizing the specific wear rate (SWR). The tribological characteristics were evaluated using a pin-on-disc setup under three operational conditions: load (30, 40, and 50 N), speed (100, 250, and 400 rpm), and sliding distance (100, 250, and 400 m). The Box-Behnken Design (BBD) was employed, with optimization performed through Grey Relational Analysis (GRA) and Particle Swarm Optimization (PSO). Analysis of Variance (ANOVA) was used to interpret the results. The results demonstrated that the optimal conditions, as determined by PSO, were a load of 35.8 N, speed of 220.3 rpm, and sliding distance of 209.6 m. The ANOVA revealed that load significantly influenced both the COF and SWR, with higher loads leading to increases in both the COF and SWR. A single- objective PSO was conducted for both COF and SWR. GRA evaluated optimal weights for COF and SWR of approximately 51% and 49%, respectively.",
+        "page": 1,
+        "score": 0.49339035153388977,
+        "rank": 1
+      },
+      {
+        "chunk_id": "chunk_1",
+        "text": "A confirmatory experiment was conducted at the obtained PSO parameters, and the error was calculated. Additionally, optical and scanning electron microscopy (SEM) were used to analyze the morphologies of the tested samples.摘要 本研究调查了亚麻纤维增强聚合物复合材料 (FRPC) 的最佳摩擦学工艺参数，以最大 限度地提高摩擦系数 (COF)，同时最小化比磨损率 (SWR). 在三种操作条件下，使用销 盘式装置评估了摩擦学特性 负载 (30、40和50 N)、速度 (100、250和400rpm)和滑动 距离 (100、25和400 m). 采用Box-Behnken设计 (BBD)，通过灰色关联分析 (GRA)和粒 子群优化 (PSO)进行优化，使用曲面方法、Box-Behnkey 设计、灰色关联分析、粒子 群优化方差分析 (ANOVA)来解释结果. 结果表明，PSO确定的最佳条件为35.8 N的载 荷、220.3rpm的速度和209.6 m的滑动距离. 方差分析显示，负载对COF和SWR都有显 著影响，更高的负载会导致COF和SW-R的增加. 对COF和SWR进行了单目标粒子群优 化. GRA评估的COF和SWR的最佳权重分别约为51%和49%. 对获得的PSO参数进行了验 证性实验，并计算了误差. 此外，光学和扫描电子显微镜 (SEM)用于分析测试样品的 形态.KEYWORDS Natural fiber composite; coefficient of friction; specific wear rate; response surface methodology; Box Behnken design; grey relational analysis; particle swarm optimization关键词 天然纤维复合材料 ; 摩擦 系数; 特定磨损率; 响应面 法; Box-Behnken设计; 灰色 关联分析; 粒子群优化Introduction Over the past two decades, there has been growing concern for environmental sustainability, which has accelerated the replacement of synthetic fibers with natural fibers owing to their environmentally friendly characteristics. Traditionally, mineral fibers such as asbestos have been utilized in brake pad materials. However, owing to their detrimental effects on both the environment and human health, researchers and industry professionals are actively seeking alternatives to asbestos (Quamar and Sarkar 2024). Natural fiber composites are characterized by a high stiffness-to-weight ratio, biodegradability, and eco-friendliness, rendering them suitable for applications in the automotive, aerospace, defense, and marine sectors (Kumar, Tejyan, and",
+        "page": 1,
+        "score": 0.47310101985931396,
+        "rank": 2
+      },
+      {
+        "chunk_id": "chunk_2",
+        "text": "Kannan 2024). Additionally, the increased attention on natural fiber composites among researchers is attributed to their abundant natural availability, ease of fabrication, low cost, high strength, and reduced carbon emissions (Kumar, Tejyan, and Kannan 2024; Singh et al. 2019). The primary criteria CONTACT Rahul Shrivastava rahulshrivastava080@gmail.com Department of Mechanical Engineering, Maulana Azad National Institute of Technology (MANIT), Link Road Number 3, Bhopal, Madhya Pradesh 462003, India Supplemental data for this article can be accessed online at https://doi.org/10.1080/15440478.2025.2570088JOURNAL OF NATURAL FIBERS 2025, VOL. 22, NO. 1, 2570088 https://doi.org/10.1080/15440478.2025.2570088 © 2025 The Author(s). Published with license by Taylor & Francis Group, LLC. This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. The terms on which this article has been published allow the posting of the Accepted Manuscript in a repository by the author(s) or with their consent.",
+        "page": 1,
+        "score": 0.2762598693370819,
+        "rank": 3
+      }
+    ],
+    "metrics": {
+      "embedding_latency_seconds": 0.7462,
+      "retrieval_latency_seconds": 0.0002,
+      "generation_latency_seconds": 1.4621,
+      "total_latency_seconds": 2.2092,
+      "input_tokens": 1303,
+      "output_tokens": 11,
+      "total_tokens": 1314,
+      "estimated_cost_usd": 0.000539
+    },
+    "evaluation_version": "V1",
+    "timestamp": "2026-09-26T02:33:41.669348"
+  },
+  {
+    "id": "Q08",
+    "question": "What wear and failure mechanisms were observed from SEM and optical microscopy, particularly under high-load conditions?",
+    "category": "evidence",
+    "answer": "Answer not found in document. (Page 1)",
+    "sources": [
+      {
+        "chunk_id": "chunk_1",
+        "text": "A confirmatory experiment was conducted at the obtained PSO parameters, and the error was calculated. Additionally, optical and scanning electron microscopy (SEM) were used to analyze the morphologies of the tested samples.摘要 本研究调查了亚麻纤维增强聚合物复合材料 (FRPC) 的最佳摩擦学工艺参数，以最大 限度地提高摩擦系数 (COF)，同时最小化比磨损率 (SWR). 在三种操作条件下，使用销 盘式装置评估了摩擦学特性 负载 (30、40和50 N)、速度 (100、250和400rpm)和滑动 距离 (100、25和400 m). 采用Box-Behnken设计 (BBD)，通过灰色关联分析 (GRA)和粒 子群优化 (PSO)进行优化，使用曲面方法、Box-Behnkey 设计、灰色关联分析、粒子 群优化方差分析 (ANOVA)来解释结果. 结果表明，PSO确定的最佳条件为35.8 N的载 荷、220.3rpm的速度和209.6 m的滑动距离. 方差分析显示，负载对COF和SWR都有显 著影响，更高的负载会导致COF和SW-R的增加. 对COF和SWR进行了单目标粒子群优 化. GRA评估的COF和SWR的最佳权重分别约为51%和49%. 对获得的PSO参数进行了验 证性实验，并计算了误差. 此外，光学和扫描电子显微镜 (SEM)用于分析测试样品的 形态.KEYWORDS Natural fiber composite; coefficient of friction; specific wear rate; response surface methodology; Box Behnken design; grey relational analysis; particle swarm optimization关键词 天然纤维复合材料 ; 摩擦 系数; 特定磨损率; 响应面 法; Box-Behnken设计; 灰色 关联分析; 粒子群优化Introduction Over the past two decades, there has been growing concern for environmental sustainability, which has accelerated the replacement of synthetic fibers with natural fibers owing to their environmentally friendly characteristics. Traditionally, mineral fibers such as asbestos have been utilized in brake pad materials. However, owing to their detrimental effects on both the environment and human health, researchers and industry professionals are actively seeking alternatives to asbestos (Quamar and Sarkar 2024). Natural fiber composites are characterized by a high stiffness-to-weight ratio, biodegradability, and eco-friendliness, rendering them suitable for applications in the automotive, aerospace, defense, and marine sectors (Kumar, Tejyan, and",
+        "page": 1,
+        "score": 0.48613542318344116,
+        "rank": 1
+      },
+      {
+        "chunk_id": "chunk_0",
+        "text": "Optimization of Tribological Process Parameters of Flax Fiber Reinforced Polymer Composites Using Box-Behnken Design and GRA-PSORahul Shrivastava and Vishal Parashar Department of Mechanical Engineering, Maulana Azad National Institute of Technology, Bhopal IndiaABSTRACT This study investigates the optimal tribological process parameters for a flax fiber- reinforced polymer composite (FRPC) to maximize the coefficient of friction (COF) while minimizing the specific wear rate (SWR). The tribological characteristics were evaluated using a pin-on-disc setup under three operational conditions: load (30, 40, and 50 N), speed (100, 250, and 400 rpm), and sliding distance (100, 250, and 400 m). The Box-Behnken Design (BBD) was employed, with optimization performed through Grey Relational Analysis (GRA) and Particle Swarm Optimization (PSO). Analysis of Variance (ANOVA) was used to interpret the results. The results demonstrated that the optimal conditions, as determined by PSO, were a load of 35.8 N, speed of 220.3 rpm, and sliding distance of 209.6 m. The ANOVA revealed that load significantly influenced both the COF and SWR, with higher loads leading to increases in both the COF and SWR. A single- objective PSO was conducted for both COF and SWR. GRA evaluated optimal weights for COF and SWR of approximately 51% and 49%, respectively.",
+        "page": 1,
+        "score": 0.442571759223938,
+        "rank": 2
+      },
+      {
+        "chunk_id": "chunk_2",
+        "text": "Kannan 2024). Additionally, the increased attention on natural fiber composites among researchers is attributed to their abundant natural availability, ease of fabrication, low cost, high strength, and reduced carbon emissions (Kumar, Tejyan, and Kannan 2024; Singh et al. 2019). The primary criteria CONTACT Rahul Shrivastava rahulshrivastava080@gmail.com Department of Mechanical Engineering, Maulana Azad National Institute of Technology (MANIT), Link Road Number 3, Bhopal, Madhya Pradesh 462003, India Supplemental data for this article can be accessed online at https://doi.org/10.1080/15440478.2025.2570088JOURNAL OF NATURAL FIBERS 2025, VOL. 22, NO. 1, 2570088 https://doi.org/10.1080/15440478.2025.2570088 © 2025 The Author(s). Published with license by Taylor & Francis Group, LLC. This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. The terms on which this article has been published allow the posting of the Accepted Manuscript in a repository by the author(s) or with their consent.",
+        "page": 1,
+        "score": 0.3340345025062561,
+        "rank": 3
+      }
+    ],
+    "metrics": {
+      "embedding_latency_seconds": 0.5327,
+      "retrieval_latency_seconds": 0.0004,
+      "generation_latency_seconds": 1.4597,
+      "total_latency_seconds": 1.9937,
+      "input_tokens": 1299,
+      "output_tokens": 11,
+      "total_tokens": 1310,
+      "estimated_cost_usd": 0.000537
+    },
+    "evaluation_version": "V1",
+    "timestamp": "2026-09-26T02:33:43.683822"
+  }
+]
