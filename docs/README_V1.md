@@ -14,7 +14,7 @@ ResearchGPT is a Retrieval-Augmented Generation (RAG) application for asking que
 - **Deployment:** Docker and Docker Compose support. AWS EC2 deployment was implemented previously, but the live AWS instance is currently unavailable.
 - **V2 — Advanced Research Assistant:** Planned iterative development covering hybrid retrieval, reranking, multi-document research workflows, expanded evaluation, and scalability testing.
 
-The reported V1 metrics represent an initial baseline. They should not be interpreted as comprehensive validation of answer reliability or production readiness.
+The reported V1 metrics represent an initial baseline.
 
 ## Table of Contents
 
@@ -117,7 +117,7 @@ The V1 dashboard presents evaluation results, including retrieval-ranking metric
 ### Previous Docker and AWS Deployment
 
 <p align="center">
-  <img src="screenshots/docker-deployment.png" width="850" alt="ResearchGPT previous Docker deployment"/>
+  <img src="screenshots/docker-deployment2.png" width="850" alt="ResearchGPT previous Docker deployment"/>
 </p>
 
 *Deployment screenshots document previous work and do not imply that a public live instance is currently available.*
@@ -381,13 +381,6 @@ The command stops and removes the Compose containers and network but does not no
 
 V1 is an initial implementation and evaluation baseline. The current benchmark is small, generation judgments are manually assigned, and broader reliability, robustness, and scalability remain to be established.
 
-### V1 — Remaining Work
-
-- Expand the benchmark with a larger and more diverse set of research questions.
-- Improve numerical and table-based information extraction.
-- Investigate incomplete answers and citation-correctness failures.
-- Automate repeatable evaluation runs and retain comparable benchmark results.
-- Improve evaluation documentation and reproducibility.
 
 ### V2 — Planned Development
 
