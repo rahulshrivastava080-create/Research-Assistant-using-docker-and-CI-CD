@@ -117,7 +117,7 @@ The V1 dashboard presents evaluation results, including retrieval-ranking metric
 ### Previous Docker and AWS Deployment
 
 <p align="center">
-  <img src="screenshots/docker-deployment2.png" width="850" alt="ResearchGPT previous Docker deployment"/>
+  <img src="screenshots/docker-deployment.png" width="850" alt="ResearchGPT previous Docker deployment"/>
 </p>
 
 *Deployment screenshots document previous work and do not imply that a public live instance is currently available.*
